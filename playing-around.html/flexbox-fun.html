@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100%;
+        }
+        body {
+            font-size: 60px;
+            margin:0;
+        }
+        main.parent {
+            display: flex;
+            flex-wrap: wrap;
+            border: 4px solid red;
+        }
+        article.child {
+            flex: 20%;
+            flex-wrap: wrap;
+            border: 4px solid cornflowerblue;
+        }
+        article.left { flex:1;}
+        article.right { flex:1;}
+    </style>
+</head>
+<body>
+    <main class="parent">
+        <article class="child left">
+            This is the left side.
+        </article>
+        <article class="child right">
+            This is the right side.
+        </article>
+    </main>
+    <main class="parent">
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+        <article class="child">
+            <img src="https://placekitten.com/200/300"/>
+        </article>
+    </main>
+</body>
+</html>
