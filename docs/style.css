@@ -5,22 +5,13 @@ body {
     font-size: medium;
     border: 10px solid rgb(0, 102, 255);
     height: 150vh;
-    margin: 20;
 }
 header {
 
-    color:rgb(240, 141, 204);
-    font-size: larger;
-    margin-left: 15px;
-    
-}
-
-h3 {
-    font-size: small;
-
-}
-p {
     color:hotpink;
+    font-size: larger;
+    border: 10px solid hotpink;
+    text-align: center;
     
 }
 
@@ -37,7 +28,7 @@ section {
 div {
     margin:20px ;
     display: inline-block;
-    border: 2px solid coral;
+    border: 30px solid coral;
     padding: 20px;
 
   }
@@ -47,4 +38,12 @@ footer {
     position:fixed;
     width: 100%;
     margin-bottom: 20px;
+}
+
+main {
+    position:static;
+    display: inline-block;
+    padding: 10px;
+    margin-inline-start: 40px;
+    
 }
