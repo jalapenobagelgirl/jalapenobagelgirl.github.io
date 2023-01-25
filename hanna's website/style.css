@@ -4,16 +4,16 @@ body {
     font-size: medium;
 }
 h1 {
-color:rgb(240, 141, 204);
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font: size 60px;
-margin-left: 500px;
-margin-top: 50px;
+    color:rgb(240, 141, 204);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: size 60px;
+    margin-left: 500px;
+    margin-top: 50px;
 }
 h2 {
     color:rgb(246, 177, 230);
-font-family: 'Courier New', Courier, monospace;
-margin-left: 570px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 570px;
 }
 h3 {
     margin-left: 30px;
@@ -31,5 +31,6 @@ p {
     max-width:100px;
     
 }
-.daniel { width: 50%;
+.daniel { 
+    width: 50%;
 }
