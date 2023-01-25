@@ -5,31 +5,30 @@ body {
     font-size: medium;
     border: 10px solid rgb(0, 102, 255);
     height: 150vh;
-    margin: 0;
+    margin: 20;
 }
 header {
+
     color:rgb(240, 141, 204);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font: size 60px;
-    text-align: center;
+    margin: 15px;
     padding: 20px;
 
 }
+
+
 section {
-    color:rgb(246, 177, 230);
-    font-family: 'Courier New', Courier, monospace;
-    display: block;
+    color:rgb(220, 109, 146);
     
 }
 div {
     display: inline-block;
-    
     border: 2px solid coral;
     margin: 50px;
     padding: 20px;
 
   }
-aside {
+footer {
+    text-align: center;
     
-
 }
