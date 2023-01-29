@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: normal;
+
+    line-height: 1em;
+    margin: 0;
+   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:active{
+    color: aqua;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color:#333;
+    color: #fff;
+    padding: 10px 15px;
+    border: 10px pink solid;
+
+}
+.button:hover{
+    background-color: coral;
+    color: white;
+}
+
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    border: 10px pink solid;
+    padding: 30px;
+}
+
+.box-2 {
+    border:3px dotted #ccc;
+    padding: 30px;
+    margin: 30px 0;
+
+}
+
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+
+}
+.categories li{
+    padding-bottom:10px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/nickiqueen.png');
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
