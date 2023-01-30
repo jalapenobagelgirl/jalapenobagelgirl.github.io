@@ -3,15 +3,16 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: medium;
-    border: 10px solid rgb(0, 102, 255);
+    border: 50px solid rgb(0, 102, 255);
     height: 150vh;
+    margin: 0;
 }
 header {
 
     color:hotpink;
     font-size: larger;
     border: 10px solid hotpink;
-    text-align: center;
+    text-align: left;
     
 }
 

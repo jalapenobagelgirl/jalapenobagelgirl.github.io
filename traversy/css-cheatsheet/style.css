@@ -24,6 +24,9 @@ a:active{
     color: aqua;
 }
 
+.clr{
+    clear:both;
+}
 
 .container {
     width: 80%;
@@ -90,4 +93,42 @@ a:active{
 .my-form input[type="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border:1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float:left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+#sidebar{
+    float: right;
+    width:30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top:30px;
+    position: relative;
+
+}
+.p-box h1{
+    position: absolute;
+    top:40px
 }
