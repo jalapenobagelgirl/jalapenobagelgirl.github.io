@@ -10,14 +10,9 @@ header {
 
     color:hotpink;
     font-size: larger;
-    border: 10px solid hotpink;
-    text-align: left;
+    border: 50px solid hotpink;
+    text-align: center;
     
-}
-
-aside {
-    font-size: medium;
-    color: hotpink;
 }
 
 section {
@@ -25,13 +20,17 @@ section {
     margin: 50px;
 }
  
-div {
+.box {
     margin:20px ;
     display: inline-block;
     border: 30px solid coral;
     padding: 20px;
 
   }
+.blogpost{
+    margin: 10px;
+    
+}
 footer {
     text-align: center;
     bottom: 0;
