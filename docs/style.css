@@ -25,6 +25,7 @@ section {
     display: inline-block;
     border: 30px solid coral;
     padding: 20px;
+    position:relative
 
   }
 .blogpost{
