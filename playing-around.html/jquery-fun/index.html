@@ -11,9 +11,19 @@
 <style>
 
     .button {
+        margin:200px;
         padding: 16px;
         border: 1px solid black;
         display: inline-block;
+    }
+    .content{
+        display: block;
+        margin: 0 200px;
+
+    }
+
+    .hide{
+        display: none;
     }
 
 
@@ -22,16 +32,18 @@
 
 <body>
     <p class="button">i am a button</p>
+    <p class="content hide">i am some content</p>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
     <script>
         $('.button').click(function(){
-$(this).hide(200);
+$('.content').toggleClass('hide');
         });
     </script>
 
-    
+
 </body>
 </html>
