@@ -6,18 +6,58 @@ body {
     height: auto;
     margin: 0;
 }
-header {
-
-    color:hotpink;
-    font-size: larger;
+header{
     border: 50px solid hotpink;
+    padding: 50px;
     text-align: center;
 }
-h3{
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+nav a {
+    transition: 0.5s;
+    
+}
+nav a:hover {
+    color: snow;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+nav li {
+    flex:1;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+nav li:hover  {
+    background: rgba(255, 184, 231, 0.6);
+}
+
+li a {
     font-size: medium;
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+h1{ color:hotpink;
+    font-size:xx-large;
+    
+
+}
+h3{
     text-decoration: underline wavy 1px;
     text-decoration-color:cyan;
-
 }
 section {
     color:hotpink;
@@ -34,16 +74,20 @@ section {
   }
 .blogpost{
     margin: 10px;
-    display: inline-block;
-    width:50%
+    width:50%;
+    display:flex;
+    flex-wrap: wrap;
 
 }
 footer {
-    text-align: center;
-    bottom: 0;
-    position:fixed;
-    width: 100%;
-    margin-bottom: 20px;
+    position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color:hotpink;
+        padding: 10px, 10px 100px 100px;
+        text-align: center;
+
 }
 
 main {
@@ -52,13 +96,9 @@ main {
     padding: 10px;
     margin-inline-start: 40px; 
 }
-
-article {
-    display: inline-block;
-  }
-    
 a {
     display: block;
+    
   }
 img {
     width: 100%;
@@ -67,15 +107,17 @@ img {
     box-sizing: border-box;
   }
 
+article {
+    display: inline-block;
+  }
 main.parent {
     display: flex;
     flex-wrap: wrap;
-    border: 4px solid red;
+    
 }
 article.child {
-    flex: 20%;
+    flex: 10%;
     flex-wrap: wrap;
-    border: 4px solid cornflowerblue;
 }
 article.left { flex:1;}
 article.right { flex:1;}
