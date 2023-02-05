@@ -8,14 +8,19 @@ body {
 }
 header{
     border: 50px solid hotpink;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
+}
+h1{ color:hotpink;
+    font-size:xx-large;
+
 }
 nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    background-color: blanchedalmond;
     
 }
 nav a {
@@ -46,18 +51,21 @@ nav li:hover  {
 
 li a {
     font-size: medium;
-    color:blanchedalmond;
+    color:coral;
     text-decoration: none;
 }
 
-h1{ color:hotpink;
-    font-size:xx-large;
-    
-
-}
 h3{
-    text-decoration: underline wavy 1px;
-    text-decoration-color:cyan;
+    font-size:x-large;
+    text-decoration: underline wavy 3px;
+    text-decoration-color:blanchedalmond;
+    margin: auto;
+}
+.date{
+    font-size: small;
+    text-decoration: none;
+    padding: 0;
+    margin: auto;
 }
 section {
     color:hotpink;
