@@ -10,7 +10,8 @@ header{
     border: 50px solid hotpink;
     padding: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
+    
 }
 h1{ color:hotpink;
     font-size:xx-large;
@@ -65,12 +66,14 @@ h3{
 .date{
     font-size: small;
     text-decoration: none;
-    padding: 0;
+    padding: 10px 0px 0px 0px;
     margin: auto;
 }
 section {
-    color:hotpink;
-    margin: 50px;
+    border: 7px dotted blanchedalmond;
+    border-radius: 15px;
+    margin: 80px;
+    padding: 30px;
 }
  
 .box {
@@ -81,20 +84,13 @@ section {
     position:relative
 
   }
-.blogpost{
-    margin: 10px;
-    width:50%;
-    display:flex;
-    flex-wrap: wrap;
-
-}
 footer {
     position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
         color:hotpink;
-        padding: 10px, 10px 100px 100px;
+        padding: 10px 100px;
         text-align: center;
 
 }
@@ -102,8 +98,7 @@ footer {
 main {
     position:static;
     display: inline-block;
-    padding: 10px;
-    margin-inline-start: 40px; 
+    
 }
 a {
     display: block;
@@ -119,14 +114,21 @@ img {
 article {
     display: inline-block;
   }
-main.parent {
+
+.flex {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+.flex div {
+    flex: 3;
     
 }
-article.child {
-    flex: 10%;
-    flex-wrap: wrap;
+.left {
+    display: flex;
+
 }
-article.left { flex:1;}
-article.right { flex:1;}
+.left article {
+    flex: 2;
+}
