@@ -12,9 +12,7 @@ background-color:white;
     height:auto;
     width:100%;
 }
-p{
-  width: 80px;
-}
+
 .container {
   width: 80%;
   margin: auto;
@@ -62,16 +60,24 @@ h1 {
   font-family:'Bigelow Rules', cursive;
   color: white;
   position: relative;
-  font-size: 500px;
+  font-size: 600px;
   font-weight: 700px;
-  margin:0;
+  margin:100px;
+  
   
 }
+h2{
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  margin:100px 60px 0px ;
   
+}
 
 main {
     height: 100vh;
     width: auto;
+    background-color:#fff;
 }
 
 nav {
@@ -79,7 +85,7 @@ nav {
   display:flex;
   flex: 55%;
   padding: 20px;
-  margin:0px;
+ 
   
   
 }
@@ -87,7 +93,7 @@ nav ul {
   list-style: none;
   display: flex;
   padding: 0;
-  margin: 20px 10px 20px 900px;
+  margin: 20px 10px 20px 850px;
   
 }
 nav li {
@@ -98,7 +104,6 @@ nav li {
   border-radius: 30px; 
   background:white;
   
-    
 }
 nav a {
   color: rgb(45, 155, 206);
@@ -115,6 +120,8 @@ nav a:hover {
     height:300px;
     border-radius: 50%;
     position: relative;
+    justify-content: center;
+
     
 }
 .artist1 {
@@ -145,13 +152,13 @@ nav a:hover {
 }
 .artist3 {
     
-    top:500px;
-    left:580px;
+    top:400px;
+    left:480px;
     background:rgb(241, 251, 98);
 }
 .artist3-content {
   
-  top:620px;
+  top:520px;
   left:580px;
   width:200px;
   opacity:0;
@@ -168,7 +175,7 @@ footer {
         color:hotpink;
         padding: 10px 100px;
         text-align: center;
-        background-color: white;
+        background-color:floralwhite;
 
 }
 
