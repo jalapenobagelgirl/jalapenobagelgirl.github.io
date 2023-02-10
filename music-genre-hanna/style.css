@@ -1,20 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya+Sans+SC:wght@700&family=Bebas+Neue&display=swap');
-/* 
-font-family: 'Alegreya Sans', sans-serif;
-font-family: 'Alegreya Sans SC', sans-serif;
-*/
-* {
-  box-sizing: border-box;
-}
+
+  @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Poppins:wght@300&display=swap');
+
+/* font-family: 'Bigelow Rules', cursive;
+font-family: 'Poppins', sans-serif; */
+
 
 body {
-  margin: 0;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0;
+font-family:'Poppins', sans-serif;
+background-color:white;
+    height:auto;
+    width:100%;
+}
+p{
+  width: 80px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.button{
+  background-color:#333;
+  color: #fff;
+  padding: 10px 15px;
+  border: 10px pink solid;
+
+}
+.button:hover{
+  background-color: coral;
+  color: white;
 }
 header {
   width:100%;
   height: 100vh;
-  margin:0;
+  margin:auto;
   position: relative;
 }
         #homepage{
@@ -39,42 +59,19 @@ header {
         }
 
 h1 {
-  font-family:'Bebas Neue';
+  font-family:'Bigelow Rules', cursive;
   color: white;
-  position: absolute;
-
+  position: relative;
+  font-size: 500px;
+  font-weight: 700px;
+  margin:0;
   
 }
-      #reggaeton h1{
-        width:auto;
-        font-size:400px;
-        
-        margin: 300px 20px 0px 20px
-      }
-      #indie h1{
-        width:auto;
-        font-size:700px;
-      
-        margin: auto;
-      }
-      #oldies h1{
-        width:auto;
-        font-size:400px;
-        
-        margin: 300px 20px 0px 20px
-      }
-      #pop h1{
-        width:auto;
-        font-size:400px;
-        
-        margin: 300px 20px 0px 20px
-      }
+  
 
-section {
-    background-color:white;
-    height:100vh;
-    width:100%;
-    
+main {
+    height: 100vh;
+    width: auto;
 }
 
 nav {
@@ -107,78 +104,53 @@ nav a {
   color: rgb(45, 155, 206);
   text-decoration:none;
   font-size: larger;
- 
-  
 }
 nav a:hover {
   color:hotpink;
   
 }
 
-.parent {
-  display: flex;
-  width: 80%;
-  margin: auto;
-}
-.parent div {
-  flex: 1;
-}
-.parent .right {
-  padding-left: 40px;
-}
-.parent .left {
-  padding-right: 40px;
-}
-.two-col-content {
-  display: flex;
-}
-.two-col-content div {
-  flex: 1;
-}
-.two-col-content img {
-  padding: 10px;
-}
-
 .artist1, .artist2, .artist3 {
     width:300px;
     height:300px;
     border-radius: 50%;
+    position: relative;
     
 }
 .artist1 {
-    position:absolute;
+    
     top:110px;
     left:80px;
     background:rgb(251, 98, 172);
 }
 .artist1-content {
-    position:absolute;
+   
     top:420px;
     left:90px;
     width:200px;
     opacity:0;
 }
 .artist2 {
-    position:absolute;
+    
     top:200px;
     left:880px;
     background:rgb(118, 98, 251);
 }
 .artist2-content {
-  position:absolute;
+  
   top:420px;
   left:880px;
   width:200px;
   opacity:0;
 }
 .artist3 {
-    position:absolute;
+    
     top:500px;
     left:580px;
     background:rgb(241, 251, 98);
 }
 .artist3-content {
-  position:absolute;
+  
   top:620px;
   left:580px;
   width:200px;
@@ -188,7 +160,7 @@ nav a:hover {
     opacity:1;
 }
 footer {
-    position:static;
+    position:absolute;
     justify-content: baseline;
         bottom: 0;
         left: 0;
