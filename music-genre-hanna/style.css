@@ -9,65 +9,81 @@ font-family: 'Alegreya Sans SC', sans-serif;
 
 body {
   margin: 0;
-font-family: 'Alegreya Sans', sans-serif;
-}
-
-img {
-  width: 100%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header {
-  height: auto;
   width:100%;
-  background-image: url('images/home-bg.png');
-  background-size: cover;
-  margin:0
+  height: 100vh;
+  margin:0;
+  position: relative;
 }
-#homepage{
-  background-image: url('images/home-bg.png');
-}
-#reggaeton{
-  background-image: url('images/regeatton-bg.png');
-  
-}
-#oldies{
-  background-image: url('images/oldies-bg.png');
-}
-#pop{
-  background-image: url('images/pop-bg.png');
-}
-#indie{
-  background-image: url('images/indeie-bg.png');
-}
+        #homepage{
+          background-image: url('images/home-bg.png');
+          
+        }
+        #reggaeton{
+          background-image: url('images/regeatton-bg.png');
+          
+        }
+        #oldies{
+          background-image: url('images/oldies-bg.png');
+          
+        }
+        #pop{
+          background-image: url('images/pop-bg.png');
+          
+        }
+        #indie{
+          background-image: url('images/indeie-bg.png');
+          
+        }
 
 h1 {
-  margin: 0;
-  justify-content: center;
   font-family:'Bebas Neue';
-  font-size:500px;
   color: white;
-}
-#reggaeton h1{
-  width: 300px
-}
+  position: absolute;
 
-h2 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 100px;
-    font-weight:700;
-    color: white;
-    margin:0
+  
 }
+      #reggaeton h1{
+        width:auto;
+        font-size:400px;
+        
+        margin: 300px 20px 0px 20px
+      }
+      #indie h1{
+        width:auto;
+        font-size:700px;
+      
+        margin: auto;
+      }
+      #oldies h1{
+        width:auto;
+        font-size:400px;
+        
+        margin: 300px 20px 0px 20px
+      }
+      #pop h1{
+        width:auto;
+        font-size:400px;
+        
+        margin: 300px 20px 0px 20px
+      }
+
 section {
-    background:white;
-    height:auto;
-    width:100vw;
-    position: relative;
+    background-color:white;
+    height:100vh;
+    width:100%;
+    
 }
 
 nav {
+  position: fixed;
   display:flex;
-  flex: 75%;
+  flex: 55%;
   padding: 20px;
+  margin:0px;
+  
   
 }
 nav ul {
@@ -75,13 +91,15 @@ nav ul {
   display: flex;
   padding: 0;
   margin: 20px 10px 20px 900px;
-    background:white;
+  
 }
 nav li {
   text-align: center;
   width: auto;
   padding: 10px 30px;
-  border: 1px solid black; 
+  border: 1px solid black;
+  border-radius: 30px; 
+  background:white;
   
     
 }
@@ -149,7 +167,7 @@ nav a:hover {
 .artist2-content {
   position:absolute;
   top:420px;
-  left:80px;
+  left:880px;
   width:200px;
   opacity:0;
 }
@@ -161,8 +179,8 @@ nav a:hover {
 }
 .artist3-content {
   position:absolute;
-  top:420px;
-  left:80px;
+  top:620px;
+  left:580px;
   width:200px;
   opacity:0;
 }
@@ -170,11 +188,15 @@ nav a:hover {
     opacity:1;
 }
 footer {
-  background-color: azure;
-  padding: 50px 0;
-  text-align: center;
-  position: relative;
-  align-items:baseline;
-  
+    position:static;
+    justify-content: baseline;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color:hotpink;
+        padding: 10px 100px;
+        text-align: center;
+        background-color: white;
+
 }
 
