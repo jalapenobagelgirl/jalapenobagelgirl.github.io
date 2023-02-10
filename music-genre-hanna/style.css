@@ -16,12 +16,28 @@ img {
   width: 100%;
 }
 header {
-  height: 100vh;
+  height: auto;
+  width:100%;
   background-image: url('images/home-bg.png');
   background-size: cover;
   margin:0
 }
-
+#homepage{
+  background-image: url('images/home-bg.png');
+}
+#reggaeton{
+  background-image: url('images/regeatton-bg.png');
+  
+}
+#oldies{
+  background-image: url('images/oldies-bg.png');
+}
+#pop{
+  background-image: url('images/pop-bg.png');
+}
+#indie{
+  background-image: url('images/indeie-bg.png');
+}
 
 h1 {
   margin: 0;
@@ -29,6 +45,9 @@ h1 {
   font-family:'Bebas Neue';
   font-size:500px;
   color: white;
+}
+#reggaeton h1{
+  width: 300px
 }
 
 h2 {
@@ -40,15 +59,15 @@ h2 {
 }
 section {
     background:white;
-    height:100vh;
+    height:auto;
     width:100vw;
-    position:relative;
+    position: relative;
 }
 
 nav {
   display:flex;
   flex: 75%;
-  padding: 10px;
+  padding: 20px;
   
 }
 nav ul {
@@ -61,21 +80,23 @@ nav ul {
 nav li {
   text-align: center;
   width: auto;
-  padding: 16px;
-    border-right:1px solid black;
+  padding: 10px 30px;
+  border: 1px solid black; 
+  
+    
 }
 nav a {
   color: rgb(45, 155, 206);
-  text-decoration: none;
+  text-decoration:none;
   font-size: larger;
+ 
+  
 }
 nav a:hover {
   color:hotpink;
   
 }
-.headers {
-    padding:80px;
-}
+
 .parent {
   display: flex;
   width: 80%;
@@ -104,26 +125,28 @@ nav a:hover {
     width:300px;
     height:300px;
     border-radius: 50%;
-    background:rgb(251, 98, 172);
+    
 }
 .artist1 {
     position:absolute;
-    top:20px;
+    top:110px;
     left:80px;
+    background:rgb(251, 98, 172);
 }
 .artist1-content {
     position:absolute;
     top:420px;
-    left:80px;
+    left:90px;
     width:200px;
     opacity:0;
 }
 .artist2 {
     position:absolute;
-    top:280px;
-    right:280px;
+    top:200px;
+    left:880px;
+    background:rgb(118, 98, 251);
 }
-.artist1-content {
+.artist2-content {
   position:absolute;
   top:420px;
   left:80px;
@@ -132,10 +155,11 @@ nav a:hover {
 }
 .artist3 {
     position:absolute;
-    top:600px;
+    top:500px;
     left:580px;
+    background:rgb(241, 251, 98);
 }
-.artist1-content {
+.artist3-content {
   position:absolute;
   top:420px;
   left:80px;
@@ -149,10 +173,8 @@ footer {
   background-color: azure;
   padding: 50px 0;
   text-align: center;
-}
-footer div {
-  width: 100%;
-  margin: auto;
-  color: white;
+  position: relative;
+  align-items:baseline;
+  
 }
 
