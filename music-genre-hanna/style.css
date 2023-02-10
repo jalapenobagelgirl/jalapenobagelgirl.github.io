@@ -46,8 +46,9 @@ section {
 }
 
 nav {
-  display: block;
+  display:flex;
   flex: 75%;
+  padding: 10px;
   
 }
 nav ul {
@@ -59,13 +60,14 @@ nav ul {
 }
 nav li {
   text-align: center;
-  width: 100%;
+  width: auto;
   padding: 16px;
     border-right:1px solid black;
 }
 nav a {
-  color: rgb(126, 78, 87);
+  color: rgb(45, 155, 206);
   text-decoration: none;
+  font-size: larger;
 }
 nav a:hover {
   color:hotpink;
