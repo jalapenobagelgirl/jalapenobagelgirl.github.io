@@ -124,7 +124,7 @@ article {
     padding: 20px;
 }
 .flex div {
-    flex: 1;
+    flex: 40%;
     
 }
 .left {
