@@ -1,100 +1,38 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Oswald:wght@300;500;700&family=Quicksand:wght@500;600&display=swap');
 
-/* font-family: 'Bigelow Rules', cursive;
-font-family: 'Poppins', sans-serif; */
+
+
+/* font-family: 'EB Garamond', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+
+*{box-sizing}
 
 
 body {
 margin: 0;
-font-family:'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
 background-color:white;
     height:auto;
     width:100%;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-}
-
-.button{
-  background-color:#333;
-  color: #fff;
-  padding: 10px 15px;
-  border: 10px pink solid;
-
-}
-.button:hover{
-  background-color: coral;
-  color: white;
-}
-header {
-  width:100%;
-  height: 100vh;
-  margin:auto;
-  position: relative;
-}
-        #homepage{
-          background-image: url('images/home-bg.png');
-          
-        }
-        #reggaeton{
-          background-image: url('images/regeatton-bg.png');
-          
-        }
-        #oldies{
-          background-image: url('images/oldies-bg.png');
-          
-        }
-        #pop{
-          background-image: url('images/pop-bg.png');
-          
-        }
-        #indie{
-          background-image: url('images/indeie-bg.png');
-          
-        }
-
-h1 {
-  font-family:'Bigelow Rules', cursive;
-  color: white;
-  position: relative;
-  font-size: 600px;
-  font-weight: 700px;
-  margin:100px;
-  
-  
-}
-h2{
-  font-size: 60px;
-  color: #fff;
-  position: absolute;
-  margin:100px 60px 0px ;
-  
-}
-
-main {
-    height: 100vh;
-    width: auto;
-    background-color:#fff;
-}
-
 nav {
-  position: fixed;
   display:flex;
-  flex: 55%;
-  padding: 20px;
+  flex: 1;
+  margin: 0;
+  justify-content:flex-end;
  
-  
-  
 }
 nav ul {
   list-style: none;
   display: flex;
-  padding: 0;
-  margin: 20px 10px 20px 850px;
-  
+  flex: 1;
+  top: 0;
+  position: fixed;
+
+
 }
 nav li {
   text-align: center;
@@ -110,9 +48,67 @@ nav a {
   text-decoration:none;
   font-size: larger;
 }
-nav a:hover {
-  color:hotpink;
+nav li:hover {
+  background-color:hotpink;
   
+}
+nav a:hover {
+  color:white;
+}
+
+.button{
+  background-color:#333;
+  color: #fff;
+  padding: 10px 15px;
+  border: 10px pink solid;
+
+}
+.button:hover{
+  background-color: coral;
+  color: white;
+}
+header {
+  width:100vw;
+  height: 100vh;
+  margin:0;
+  background-color:coral;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+   
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  position: absolute;
+  letter-spacing: -30px;
+  font-size: 470px;
+  margin:50px 50px;
+  
+  
+}
+header h2{
+
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  margin: 150px 100px;
+  
+}
+
+main {
+   
+    width: 100%;
+    background-color:#fff;
+    
+}
+
+section{
+  height:100vh;
+}
+.reggaeton{
+  background-color:blue;
 }
 
 .artist1, .artist2, .artist3 {
@@ -167,15 +163,17 @@ nav a:hover {
     opacity:1;
 }
 footer {
-    position:absolute;
+  margin:auto;
+  width: 500px;
+  position:absolute;
     justify-content: baseline;
         bottom: 0;
-        left: 0;
-        right: 0;
-        color:hotpink;
-        padding: 10px 100px;
+        color:white;
+        padding: 10px 50px;
         text-align: center;
-        background-color:floralwhite;
+        border-radius: 50%;
+        border: 1px solid white;
+        
 
 }
 
