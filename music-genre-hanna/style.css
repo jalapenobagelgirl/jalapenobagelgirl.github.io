@@ -8,8 +8,10 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Quicksand', sans-serif; */
 
-*{box-sizing}
-
+*{box-sizing:border-box;}
+html {
+  scroll-behavior: smooth;
+}
 
 body {
 margin:0;
@@ -30,10 +32,14 @@ nav ul {
   flex: 1;
   top: 0;
   position: fixed;
-
+z-index:99;
 
 }
-nav li {
+
+nav a {
+  color: rgb(45, 155, 206);
+  text-decoration:none;
+  font-size: larger;
   text-align: center;
   width: auto;
   padding: 10px 30px;
@@ -42,25 +48,20 @@ nav li {
   background:white;
   
 }
-nav a {
-  color: rgb(45, 155, 206);
-  text-decoration:none;
-  font-size: larger;
-}
-nav li:hover {
-  background-color:blue;
 
-}
-nav a:hover {
+nav a:hover{
   color:white;
+  background-color:blue;
 }
 
 .star{
   width:80px;
   margin:10px 30px;
   position: fixed;
+  z-index:99;
 }
 .star:hover{
+
   /*jiggle*/
 }
 header {
@@ -103,21 +104,25 @@ p{
 }
 
 section{
-  height:150vh;
+  height:100vh;
   
 }
-      .reggaeton{
-        background-color:blue;
-      }
-      .oldies{
-        background-color:rgb(241, 251, 98);
-      }
-      .pop{
-        background-color:rgb(251, 98, 172);
-      }
-      .indie{
-        background-color:gold;
-      }
+.reggaeton{
+  position:relative;
+  background-color:blue;
+}
+.oldies{
+  position:relative;
+  background-color:rgb(241, 251, 98);
+}
+.pop{
+  position:relative;
+  background-color:rgb(251, 98, 172);
+}
+.indie{
+  position:relative;
+  background-color:gold;
+}
 
 .artist1, .artist2, .artist3 {
     width:300px;
@@ -127,39 +132,60 @@ section{
     justify-content: space-between;
     display: flex;
    
-     
 }
 
 .artist1 {
-    
+
     background:rgb(251, 98, 172);
 }
 .j-balvin-content {
     margin:10px 80px;
     width:300px;
     opacity:0;
+    position:absolute;
+    top:320px;
+    left:0;
+    z-index:9;
 }
 .artist2 {
-    
   
     background:rgb(118, 98, 251);
 }
+.reggaeton .artist1 {
+  position: absolute;
+  top:5%;
+  left:5%;
+}
+.reggaeton .artist2 {
+  position: absolute;
+  top:30%;
+  left:40%;
+}
+.reggaeton .artist3 {
+  position: absolute;
+  bottom:10%;
+  right:10%;
+}
 .artist2-content {
-  
+  position:absolute;
+  top:320px;
+  left:0;
   margin:10px 80px;
     width:300px;
     opacity:0;
+    z-index:9;
 }
 .artist3 {
-    
-    background:rgb(241, 251, 98);
+    position:relative;
+    background:rgb(205, 122, 14);
 }
 .artist3-content {
-  
-  top:520px;
-  left:580px;
+  position:absolute;
+  top:320px;
+  left:0px;
   width:200px;
   opacity:0;
+  z-index:9;
 }
 .show {
     opacity:1;

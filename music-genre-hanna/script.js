@@ -2,6 +2,9 @@
 $('.artist1').click(function() {
     $('.j-balvin-content').toggleClass('show')
 })
+$('.artist1').click(function() {
+    $('.artist1-content').toggleClass('show')
+})
 $('.artist2').click(function() {
     $('.artist2-content').toggleClass('show')
 })
