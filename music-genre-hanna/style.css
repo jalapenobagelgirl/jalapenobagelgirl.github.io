@@ -96,7 +96,7 @@ h3{
   font-family: 'Oswald', sans-serif;
   font-size: larger;
   margin:0;
-  
+
 }
 p{
   font-size: medium;
@@ -146,10 +146,9 @@ section{
 }
 .artist2-content {
   
-  top:420px;
-  left:880px;
-  width:200px;
-  opacity:0;
+  margin:10px 80px;
+    width:300px;
+    opacity:0;
 }
 .artist3 {
     
