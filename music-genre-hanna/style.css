@@ -1,27 +1,25 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Oswald:wght@300;500;700&family=Quicksand:wght@500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quicksand:wght@500;600&display=swap');
 
 
 
-/* font-family: 'EB Garamond', serif;
-font-family: 'Oswald', sans-serif;
+
+/* font-family: 'Oswald', sans-serif;
 font-family: 'Quicksand', sans-serif; */
 
 *{box-sizing}
 
 
 body {
-margin: 0;
+margin:0;
 font-family: 'Quicksand', sans-serif;
-background-color:white;
-    height:auto;
-    width:100%;
 }
 
 nav {
   display:flex;
   flex: 1;
-  margin: 0;
+  margin: 0px 40px;
   justify-content:flex-end;
  
 }
@@ -49,23 +47,20 @@ nav a {
   font-size: larger;
 }
 nav li:hover {
-  background-color:hotpink;
-  
+  background-color:blue;
+
 }
 nav a:hover {
   color:white;
 }
 
-.button{
-  background-color:#333;
-  color: #fff;
-  padding: 10px 15px;
-  border: 10px pink solid;
-
+.star{
+  width:80px;
+  margin:10px 30px;
+  position: fixed;
 }
-.button:hover{
-  background-color: coral;
-  color: white;
+.star:hover{
+  
 }
 header {
   width:100vw;
@@ -96,37 +91,45 @@ header h2{
   margin: 150px 100px;
   
 }
-
-main {
-   
-    width: 100%;
-    background-color:#fff;
-    
+h3{
+  font-family: 'Oswald', sans-serif;
+  font-size: small;
 }
+
 
 section{
-  height:100vh;
+  height:150vh;
+  
 }
-.reggaeton{
-  background-color:blue;
-}
+      .reggaeton{
+        background-color:blue;
+      }
+      .oldies{
+        background-color:rgb(241, 251, 98);
+      }
+      .pop{
+        background-color:rgb(251, 98, 172);
+      }
+      .indie{
+        background-color:gold;
+      }
 
 .artist1, .artist2, .artist3 {
     width:300px;
     height:300px;
     border-radius: 50%;
     position: relative;
-    justify-content: center;
-
-    
+    justify-content: space-between;
+    display: flex;
+    align-items:;
+     
 }
+
 .artist1 {
-    
-    top:110px;
-    left:80px;
+  
     background:rgb(251, 98, 172);
 }
-.artist1-content {
+.j-balvin-content {
    
     top:420px;
     left:90px;
@@ -135,8 +138,7 @@ section{
 }
 .artist2 {
     
-    top:200px;
-    left:880px;
+  
     background:rgb(118, 98, 251);
 }
 .artist2-content {
@@ -148,8 +150,6 @@ section{
 }
 .artist3 {
     
-    top:400px;
-    left:480px;
     background:rgb(241, 251, 98);
 }
 .artist3-content {
