@@ -37,7 +37,7 @@ z-index:99;
 }
 
 nav a {
-  color: rgb(45, 155, 206);
+  color:blue;
   text-decoration:none;
   font-size: larger;
   text-align: center;
@@ -113,11 +113,11 @@ section{
 }
 .oldies{
   position:relative;
-  background-color:rgb(241, 251, 98);
+  background-color:rgb(251, 98, 98);
 }
 .pop{
   position:relative;
-  background-color:rgb(251, 98, 172);
+  background-color:rgb(118, 98, 251);
 }
 .indie{
   position:relative;
@@ -129,43 +129,93 @@ section{
     height:300px;
     border-radius: 50%;
     position: relative;
-    justify-content: space-between;
     display: flex;
    
+}
+.reggaeton .artist1 {
+  position: absolute;
+  top:10%;
+  left:5%;
+}
+.reggaeton .artist2 {
+  position: absolute;
+  top:50%;
+  left:30%;
+}
+.reggaeton .artist3 {
+  position: absolute;
+  bottom:20%;
+  right:10%;
+}
+.oldies .artist1 {
+  position: absolute;
+  top:5%;
+  left:5%;
+}
+.oldies .artist2 {
+  position: absolute;
+  top:30%;
+  left:40%;
+}
+.oldies .artist3 {
+  position: absolute;
+  bottom:10%;
+  right:10%;
+}.
+pop .artist1 {
+  position: absolute;
+  top:5%;
+  left:5%;
+}
+.pop .artist2 {
+  position: absolute;
+  top:30%;
+  left:40%;
+}
+.pop .artist3 {
+  position: absolute;
+  bottom:10%;
+  right:10%;
+}
+.pop .artist4 {
+  position: absolute;
+  bottom:10%;
+  right:10%;
+}
+.indie .artist1 {
+  position: absolute;
+  top:5%;
+  left:5%;
+}
+.indie .artist2 {
+  position: absolute;
+  top:30%;
+  left:40%;
+}
+.indie .artist3 {
+  position: absolute;
+  bottom:10%;
+  right:10%;
 }
 
 .artist1 {
 
     background:rgb(251, 98, 172);
 }
-.j-balvin-content {
-    margin:10px 80px;
+.artist1-content {
+  position:absolute;
+  top:320px;
+  left:0;
+  margin:10px 80px;
     width:300px;
     opacity:0;
-    position:absolute;
-    top:320px;
-    left:0;
     z-index:9;
 }
 .artist2 {
   
     background:rgb(118, 98, 251);
 }
-.reggaeton .artist1 {
-  position: absolute;
-  top:5%;
-  left:5%;
-}
-.reggaeton .artist2 {
-  position: absolute;
-  top:30%;
-  left:40%;
-}
-.reggaeton .artist3 {
-  position: absolute;
-  bottom:10%;
-  right:10%;
-}
+
 .artist2-content {
   position:absolute;
   top:320px;
