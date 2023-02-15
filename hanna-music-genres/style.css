@@ -124,13 +124,69 @@ section{
   background-color:gold;
 }
 
-.artist1, .artist2, .artist3 {
-    width:300px;
+.artist1, .artist2, .artist3, .artist4 {
+    width:500px;
     height:300px;
     border-radius: 50%;
     position: relative;
     display: flex;
    
+}.artist1 {
+
+    background:rgb(251, 98, 172);
+}
+.artist1-content {
+  position:absolute;
+  top:320px;
+  left:0;
+  margin:10px 80px;
+    width:300px;
+    opacity:0;
+    z-index:9;
+}
+.artist2 {
+  
+    background:rgb(185, 63, 250);
+}
+
+.artist2-content {
+  position:absolute;
+  top:320px;
+  left:0;
+  margin:10px 80px;
+    width:300px;
+    opacity:0;
+    z-index:9;
+}
+.artist3 {
+    
+    background:gold;
+}
+.artist3-content {
+  position:absolute;
+  top:320px;
+  left:0px;
+  width:200px;
+  opacity:0;
+  z-index:9;
+}
+.artist4 {
+  
+  background:greenyellow;
+}
+
+.artist4-content {
+position:absolute;
+top:320px;
+left:0;
+margin:10px 80px;
+  width:300px;
+  opacity:0;
+  z-index:9;
+}
+
+.show {
+    opacity:1;
 }
 .reggaeton .artist1 {
   position: absolute;
@@ -161,21 +217,21 @@ section{
   position: absolute;
   bottom:10%;
   right:10%;
-}.
-pop .artist1 {
+}
+.pop .artist1 {
   position: absolute;
   top:5%;
   left:5%;
 }
 .pop .artist2 {
   position: absolute;
-  top:30%;
+  top:20%;
   left:40%;
 }
 .pop .artist3 {
   position: absolute;
-  bottom:10%;
-  right:10%;
+  bottom:30%;
+  right:50%;
 }
 .pop .artist4 {
   position: absolute;
@@ -198,53 +254,12 @@ pop .artist1 {
   right:10%;
 }
 
-.artist1 {
 
-    background:rgb(251, 98, 172);
-}
-.artist1-content {
-  position:absolute;
-  top:320px;
-  left:0;
-  margin:10px 80px;
-    width:300px;
-    opacity:0;
-    z-index:9;
-}
-.artist2 {
-  
-    background:rgb(118, 98, 251);
-}
-
-.artist2-content {
-  position:absolute;
-  top:320px;
-  left:0;
-  margin:10px 80px;
-    width:300px;
-    opacity:0;
-    z-index:9;
-}
-.artist3 {
-    position:relative;
-    background:rgb(205, 122, 14);
-}
-.artist3-content {
-  position:absolute;
-  top:320px;
-  left:0px;
-  width:200px;
-  opacity:0;
-  z-index:9;
-}
-.show {
-    opacity:1;
-}
 footer {
   margin:auto;
   width: 500px;
-  position:absolute;
-    justify-content: baseline;
+  position:relative;
+  
         bottom: 0;
         color:white;
         padding: 10px 50px;
