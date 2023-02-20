@@ -18,45 +18,45 @@ h1{ color:white;
     font-size:xx-large;
 
 }
+
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color:pink;
-    
-}
-nav a {
-    transition: 0.5s;
-    
-}
-nav a:hover {
-    color: snow;
-
-}
-nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    
-}
-nav li {
+    display:flex;
     flex:1;
-    padding: 10px;
-    transition: 0.5s;
-
-}
-nav li:hover  {
-    background: rgba(255, 184, 231, 0.6);
-}
-
-li a {
+    margin: 0;
+    justify-content:left;
+   
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    
+    flex: 1;
+    top: 0;
+    position: fixed;
+  z-index:99;
+  
+  }
+  
+  nav a {
+    color:blue;
+    text-decoration:none;
     font-size: medium;
+    text-align: center;
+    padding: 10px 30px;
+    
+    border-radius: 30px; 
+    background:rgb(229, 232, 255);
+    
+  }
+  
+  nav a:hover{
     color:white;
-    text-decoration: none;
-}
+    background-color:blue;
+    padding: 10px 30px;
+    border-radius: 30px; 
+
+  }
+  
 
 h3{
     font-size:x-large;
@@ -98,46 +98,47 @@ footer {
 
 }
 
-main {
-    position:static;
-    display: inline-block;
-    
-}
-a {
-    display: block;
-    
-  }
+
 img {
-    width: 100%;
-    height: auto;
+    width: 50%;
     padding: 10px;
     box-sizing: border-box;
+    
   }
 
 article {
     display: inline-block;
+    
+  }
+p{
+    width: 50%;
   }
 
-.flex {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-}
-.flex div {
-    flex: 40%;
-    
-}
-.left {
-    display: flex;
+a{
+color:hotpink;
+text-decoration:underline dotted;
 
 }
-.left article {
-    flex: 1;
+a:hover{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 40px;
 }
-.index-flex{
+.redo-website{ 
     display: flex;
-}
-.index-flex div{
     flex:1;
+}
+main.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+article.left { flex:50%;}
+article.right { flex:50%;}
+
+.two-cols img{
+    width:100%;
+
+}
+.two-cols p{
+    width: 100%;
 }
