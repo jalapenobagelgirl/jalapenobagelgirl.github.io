@@ -9,4 +9,7 @@ $('.artist2').hover(function() {
 $('.artist3').hover(function() {
     $('.artist3-content').toggleClass('show')
 })
+$('.artist4').hover(function() {
+    $('.artist4-content').toggleClass('show')
+})
 
