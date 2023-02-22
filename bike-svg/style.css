@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    padding: 50px;
+    color: blue;
+}
+
+
+#right-wheel,
+#left-wheel{
+animation: wheel 2s infinite linear;
+transform-origin: center;
+transform-box: fill-box;
+}
+
+#main{
+animation: main .5s ease-out infinite alternate;
+transform-origin: bottom;
+}
+
+#hair{
+    animation: hair .5s ease-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+   
+
+}
+
+@keyframes wheel {
+    
+    from{
+        transform:rotateZ(0deg);
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+@keyframes main{
+    from{
+        transform: rotateX(0deg);
+
+    }
+    to{
+        transform: rotateX(20deg) ;
+
+    }
+}
+@keyframes hair {
+    from{
+        transform: translateX(0%) translateY(0%) rotateZ(0deg);
+       
+
+    }
+    to{
+        transform: translateX(-10%) translateY(15%) rotateZ(10deg);
+        
+
+    }
+}
