@@ -28,8 +28,8 @@
         </nav>
 
     <header>
-        <h2 class="animate__animated animate__flash animate__delay-20ms animate__fadeInDown">MY FAVORITE</h2>
-        <h1 class="animate__animated animate__delay-1s animate__fadeInDown">GENRES</h1>
+        <h2 class="animate__animated animate__delay-20ms animate__slideInLeft">MY FAVORITE</h2>
+        <h1 class="animate__animated animate__delay-600ms animate__slideInUp">GENRES</h1>
     </header>
     
 
@@ -84,8 +84,7 @@
             </div>
         </div>
     </section>
-
-
+    
 <section class="pop" id="pop">
         <!--artist1 is the circle. artist1-content are the words that appear with a click using jquery-->
 
@@ -143,10 +142,17 @@
         <script src="https://code.jquery.com/jquery-3.6.3.min.js"
             integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
+        <script>
+            $('hover-me').hover(function(){
+                $('img-rotate').css(rotate('45deg'))
+            })
+        </script>
 
     <footer>
         hanna's project 1 / design 341 / winter 2023 
     </footer>
+
+
 
  </body>
  </html>
