@@ -1,0 +1,41 @@
+*{box-sizing: border-box;}
+
+/* (*) means apply to all elements of site */
+
+img{
+    width: 100%;
+}
+body{
+    background-color: rgb(255, 191, 241);
+    margin:0;
+}
+
+.cat{
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap:2rem;
+    grid-row-gap: 4rem;
+}
+/* grid-template-columns: 1fr 1fr 1fr means 3 equal columns. fr stands for fraction unit. 
+Try 1fr 2fr 1fr (this makes the images 1 regular 1 bigger 1 regular).
+grid-template-columns: repeat(13, 1fr) — leaves even amount of room for 13 elements.
+*/
+
+.kitten{
+    border: 2px solid white;
+    padding:20px;
+
+}
+.feature{
+    grid-column: 1/3;
+    grid-row:1/3;
+}
+/* grid-column: 1/3 means start my image at the first column, end it before the third. The image takes up 2/3 of the screen. */
+
+.cat-gallery{
+   
+   display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,400px));
+}

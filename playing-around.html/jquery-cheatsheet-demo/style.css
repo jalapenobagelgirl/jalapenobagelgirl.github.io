@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.more-2-read {
+    display:none;
+}
+
+.read-more, .add-more {
+    padding:8px;
+    border:1px solid black;
+    border-radius:12px;
+    display:inline-block;
+    
+}
+.read-more:hover, .add-more:hover {
+    border:1px solid white;
+    background:black;
+    color:white;
+}
