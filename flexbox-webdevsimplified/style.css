@@ -1,0 +1,35 @@
+.flexbox-container{
+    display: flex;
+    
+}
+/* 
+align-items spaces them out along y-axis AKA cross-axis. 
+align-content aligns content on x-axis AKA main axis.
+Without 'flex-wrap: wrap', content will squish to fit when you shrink the browser window. Adding the flex wrap will move items down and stack them when the window shrinks.
+FLEX-DIRECTION: column or row
+FLEX_SHRINK: 0; do not shrink content when sizing down
+align-self
+'order: 1' 'order:2' is how you reorganize your boxes. you are telling the boxes where to go instead of having to reorganize your code order.
+'flex-basis: 0' overrides any width settings and starts at 0px wide. This is good for when you want flex-grow to be more exact. 
+shortcut: flex: 1 0 0px (flex-grow, flex-shrink, flex-basis)
+
+*/
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: thistle;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    flex-shrink: 0;
+}
+.flexbox-item-2{
+    min-height: 200px;
+    flex-grow: 1;
+}
+.flexbox-item-3{
+    min-height: 300px;
+    flex-grow: 1;
+}

@@ -83,12 +83,13 @@ nav{
     position:sticky;
     font-size: 20px;
     background: white;
+    z-index:99;
 }
 nav ul{
     list-style: none;
     font-size:30px;
     margin:0;
-    z-index:99;
+    
 
 }
 
