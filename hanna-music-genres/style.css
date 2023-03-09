@@ -54,13 +54,13 @@ nav a:hover{
   background-color:blue;
 }
 
-.star{
+#star{
   width:80px;
   margin:10px 30px;
   position: fixed;
   z-index:99;
 }
-.star:hover{
+#star:hover{
 
   /*jiggle*/
 }
@@ -68,8 +68,7 @@ header {
   width:100vw;
   height: 100vh;
   margin:0;
-  background-color:coral;
-  background-size: cover;
+  background-color:#ff5c00;
   
 }
 
@@ -77,24 +76,14 @@ header h1 {
    
   font-family: 'Oswald', sans-serif;
   color: white;
-  position: absolute;
+  position: relative;
   letter-spacing: -30px;
-  font-size: 470px;
-  margin:50px 50px;
+  font-size: 600px;
+  margin: 0px;
+  
  
 }
-
-.reg-head{
-  font-family: 'Oswald', sans-serif;
-  color: white;
-  position: relative;
-  transform: rotate(-90deg);
-  font-size: 80px;
-  align-items: center;
-  justify-content: left;
-}
 header h2{
-
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 60px;
   color: #fff;
@@ -106,161 +95,107 @@ h3{
   font-family: 'Oswald', sans-serif;
   font-size: larger;
   margin:0;
+  text-align: center;
+  position:relative;
 
 }
-p{
+.content p{
   font-size: medium;
+  width:50%;
+  
 }
 
 section{
   height:100vh;
+  margin:0;
   
 }
+/*sections*/
+
 .reggaeton {
   position:relative;
-  background-color:blue;
+  background-color: #ff006a;
+  
 }
 .oldies{
   position:relative;
-  background-color:rgb(251, 98, 98);
+  background-color:#bd00ff;
+  
 }
 .pop{
   position:relative;
-  background-color:rgb(118, 98, 251);
+  background-color:#3300ff;
+  
 }
 .indie{
   position:relative;
-  background-color:gold;
+  background-color:#d4ef2d;
+  display: flex;
 }
 
-.artist1, .artist2, .artist3, .artist4 {
-    width:300px;
-    height:300px;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-   
-}.artist1 {
-
-    background:rgb(251, 98, 172);
-}
-.artist1-content {
-  position:absolute;
-  top:320px;
-  left:0;
-  margin:10px 80px;
-    width:300px;
-    opacity:0;
-    z-index:9;
-}
-.artist2 {
-  
-    background:rgb(185, 63, 250);
-}
-
-.artist2-content {
-  position:absolute;
-  top:320px;
-  left:0;
-  margin:10px 80px;
-    width:300px;
-    opacity:0;
-    z-index:9;
-}
-.artist3 {
-    
-    background:gold;
-}
-.artist3-content {
-  position:absolute;
-  top:320px;
-  left:0px;
-  width:200px;
-  opacity:0;
-  z-index:9;
-}
-.artist4 {
-  
-  background:greenyellow;
-}
-
-.artist4-content {
-position:absolute;
-top:320px;
-left:0;
-margin:10px 80px;
-  width:300px;
-  opacity:0;
-  z-index:9;
-}
+/*CONTENT SHOW*/
 
 .show {
     opacity:1;
 }
-.reggaeton .artist1 {
-  position: absolute;
-  top:10%;
-  left:5%;
+
+img{
+  max-width: 500px;
+
 }
-.reggaeton .artist2 {
-  position: absolute;
-  top:50%;
-  left:30%;
+
+/*ARTIST POSITIONS*/
+
+.jblavin {
+  position: relative;
+  flex: 1;
 }
-.reggaeton .artist3 {
-  position: absolute;
-  bottom:20%;
-  right:10%;
+.daddyyankee {
+  position: relative;
+  flex:1;
 }
-.oldies .artist1 {
-  position: absolute;
-  top:5%;
-  left:5%;
+.ozuna {
+  position: relative;
+  flex:1;
 }
-.oldies .artist2 {
-  position: absolute;
-  top:30%;
-  left:40%;
+
+
+.louis {
+  position: relative;
+  
 }
-.oldies .artist3 {
-  position: absolute;
-  bottom:10%;
-  right:10%;
+.supremes {
+  position: relative;
+  
 }
-.pop .artist1 {
-  position: absolute;
-  top:5%;
-  left:5%;
+.beegees{
+  position: relative;
+  
 }
-.pop .artist2 {
-  position: absolute;
-  top:20%;
-  left:40%;
+.britney {
+  position: relative;
+ 
 }
-.pop .artist3 {
-  position: absolute;
-  bottom:30%;
-  right:50%;
+.avril {
+  position: relative;
+  
 }
-.pop .artist4 {
-  position: absolute;
-  bottom:10%;
-  right:10%;
+.jason {
+  position: relative;
+  
 }
-.indie .artist1 {
-  position: absolute;
-  top:5%;
-  left:5%;
+
+.cage {
+  position: relative;
+  
 }
-.indie .artist2 {
-  position: absolute;
-  top:30%;
-  left:40%;
+.blackkeys {
+  position: relative;
+  
 }
-.indie .artist3 {
-  position: absolute;
-  bottom:10%;
-  right:10%;
+.ziggy {
+  position: relative;
+  ;
 }
 
 
@@ -268,11 +203,11 @@ footer {
   width: 500px;
   position:relative;
   margin:0% 40%;
-   color:orange;
+   color:#ff5c00;
    padding: 10px 20px;
    text-align: center;
   border-radius: 50%;
-  border: 1px solid orange;
+  border: 1px solid #ff5c00;
   z-index: 99;
         
 
