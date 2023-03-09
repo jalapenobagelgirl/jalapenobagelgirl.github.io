@@ -6,21 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The ALIBI Tiki Lounge</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 </head>
 
 <body>
     
-        <nav>
-          
+        <div class="nav" id="">       
                 <a href="#about-page">ABOUT</a>
                 <a href="#drinks-page">DRINKS</a>
                 <a href="#food-page">FOOD</a>
                 <a href="">CONTACT</a>
-            </ul>
-        </nav>
+        </div>
 
     <header class="home-page">
-        <div class="logo-box"><img class="main-logo-big" src="images/logo-alibi.png"></div>
+        <img class="main-logo-big" src="images/logo-alibi.png">
         <h2 class="info-home-page">
             Hours Every day 11:30am—2:30AM
             <br>
@@ -29,49 +28,27 @@
             97227
         </h2>
     
-    
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <img src="images/interior-1.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="images/interior-2.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="images/interior-3.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
 </header>
-    <section class="about-page">
+
+    <div class="gallery-container">
+
+            <img class="gallery image1" src="images/interior-1.jpg">
+        
+            <img class="gallery image2" src="images/interior-2.jpg">
+
+            <img class="gallery image3" src="images/interior-3.jpg">
+      
+    </div>
+
+    <section class="about-page" id="about-page">
         <h1 class="about-title">OUR STORY</h1>
-       
-            <p class="our-story">The original home of The ALIBI was a nice stop for horses and buggies as they traveled up and down the dirt trail known as the Inter-state in the late 1800's. "Chat-n-nibble", as it was known to travelers then served up some of the finest grub a fellow could find at a breakfast and lunch counter. A small beginning! The next business to call the spot home was a tiny tavern run by Mr. Peterson, "Max Alibi" was a popular place to stop, and saw much success under his ownership. Peterson gave the business a name that would last far into the 1990's. The third owner Roy Ell saw a jewel of a restaurant in this little stop. He leased the building in 1947 and renamed the place "The ALIBI."
+        
+            <p class="about-content">The original home of The ALIBI was a nice stop for horses and buggies as they traveled up and down the dirt trail known as the Inter-state in the late 1800's. "Chat-n-nibble", as it was known to travelers then served up some of the finest grub a fellow could find at a breakfast and lunch counter. A small beginning! The next business to call the spot home was a tiny tavern run by Mr. Peterson, "Max Alibi" was a popular place to stop, and saw much success under his ownership. Peterson gave the business a name that would last far into the 1990's. The third owner Roy Ell saw a jewel of a restaurant in this little stop. He leased the building in 1947 and renamed the place "The ALIBI."
 
             In 1992, the current owner, Larry White, took over and has agreed to keep the style and flourish what has been so magnificent for some 50 years. As you sit in The ALIBI Lounge, Restaurant or one of the many nooks and shelters, under shell lamp shades in bamboo cane chairs, you can almost feel the cool summer breeze blow across the beach. Sipping tantalizing tropical drinks, letting the atmosphere sink in, nibbling on seafood appetizers and entrees, it's so easy to relax and enjoy a mini vacation in the midst of your day. </p>
             
     </section>
-    <section class="drinks-page">
+    <section class="drinks-page" id="drinks-page">
         <h1 class="drinks-title">DRINKS</h1>
             <h3>SLUSHIES 10</h3>
                 <ul class="slushies"> 
@@ -117,7 +94,6 @@
                 <p>Zombie 14
                     limit two per person
                     virgin island rums, .......
-                    
                     </p>
         <!--happy hour marquee-->
 
@@ -126,35 +102,36 @@
         </marquee>
             
     </section>
-    <section class="food-page"> <!--this section needs unordered lists for menu items, menu section headings, and images-->
+    <section class="food-page" id="food-page"> <!--this section needs unordered lists for menu items, menu section headings, and images-->
         <h1 class="food-title">FOOD</h1>
         
         <h3>SMALL PLATES</h3>
         <ul>
-            House Salad 8.5
+            <h4>House Salad 8.5</h4>
             butter lettuce, macadamia nuts, toasted edamame, spicy citrus vinaigrette
-            Lumpia 11.5
+            <h4>Lumpia 11.5</h4>
             pork spring rolls and alibi sauce
-            Alibi Nachos 13
+            <h4>Alibi Nachos 13</h4>
             Fried wonton strips, cheese sauce, pickled jalapeno, tomato and green onion. 
-            Add kalua pork for an additional charge.
-            Waffle Fries 8.5served with ketchup & ranch
-            Coconut Fried Shrimp 12
+            <strong>Add kalua pork for an additional charge.</strong>
+            <h4>Waffle Fries</h4> 8.5 served with ketchup & ranch
+            <h4>Coconut Fried Shrimp 12</h4>
             served with alibi sauce
-            Potstickers 10
+            <h4>Potstickers 10</h4>
             pork dumplings served with sweet soy sauce
         </ul>
         <h3>ENTREES</h3>
         <ul>
-            Teriyaki Chicken 15
-            Slow marinated, grilled pineapple, mac & rice
-            Fish & Chips 16
-            Tempura cod, house tartar & waffle fries. includes a side of house slaw.
-            Kalua Pork 15
-            banana leaf braised pork, bbq sauce, mac & rice
-            Aloha Plate 17
-            teriyaki chicken & kalua pork, mac & rice
+            <li><h4>Teriyaki Chicken 15</h4>
+            Slow marinated, grilled pineapple, mac & rice</li>
+            <li><h4>Fish & Chips 16</h4>
+            Tempura cod, house tartar & waffle fries. includes a side of house slaw.</li>
+            <li><h4>Kalua Pork 15</h4>
+            banana leaf braised pork, bbq sauce, mac & rice</li>
+            <li><h4>Aloha Plate 17</h4>
+            teriyaki chicken & kalua pork, mac & rice</li>
         </ul>
+        <img class="fish-sando" src="images/fish-sandwich.png">
         <h3>SIDES</h3>
         <ul>
             <li>Sticky White Rice 3</li>
@@ -170,10 +147,26 @@
          </ul>  
             
     </section>
+    <section class="contact" id="contact">
 
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var nav = document.getElementById("nav");
+        var sticky = nav.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            nav.classList.add("sticky")
+          } else {
+            nav.classList.remove("sticky");
+          }
+        }
+        </script>
 
 </body>
 </html>

@@ -72,8 +72,7 @@ header {
   
 }
 
-header h1 {
-   
+.mainheader {
   font-family: 'Oswald', sans-serif;
   color: white;
   position: relative;
@@ -83,7 +82,7 @@ header h1 {
   
  
 }
-header h2{
+h2{
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 60px;
   color: #fff;
@@ -97,16 +96,25 @@ h3{
   margin:0;
   text-align: center;
   position:relative;
+  
 
 }
-.content p{
-  font-size: medium;
-  
-  
+
+h1{
+  display: flex;
+  position: relative;
+  border:1px solid #3300ff;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  height: min-content;
+  font-size: 200px;
+  text-align: center;
+  margin:0;
 }
 
 section{
-  height:100vh;
+  width:100vw;
+  height: 100vh;
   margin:0;
   
 }
@@ -114,7 +122,7 @@ section{
 
 .reggaeton {
   position:relative;
-  background-color: #ff006a;
+  background-color: #fff500;
   display: flex;
 }
 .oldies{
@@ -130,7 +138,7 @@ section{
 }
 .indie{
   position:relative;
-  background-color:#55c753;
+  background-color:#d4ef2d;
   display: flex;
   
 }
@@ -155,57 +163,109 @@ div{
 .jblavin {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .jbalvin-content{
-  width:50%;
   position: relative;
+  flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .daddyyankee {
   position: relative;
   flex:1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.daddyyankee-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .ozuna {
   position: relative;
   flex:1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
-
+.ozuna-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .louis {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .supremes {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .beegees{
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
+
+
 .britney {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .avril {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .jason {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
+
 
 .cage {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .blackkeys {
   position: relative;
   flex: 1;
+  display: block;
+  
 }
 .ziggy {
   position: relative;
   flex: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 

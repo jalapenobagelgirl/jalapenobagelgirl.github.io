@@ -2,42 +2,42 @@
 $('.jbalvin').click(function() {
     $('.jbalvin-content').toggleClass('show')
 })
-$('.artist2').click(function() {
-    $('.artist2-content').toggleClass('show')
+$('.daddyyankee').click(function() {
+    $('.daddyyankee-content').toggleClass('show')
 })
-$('.artist3').click(function() {
-    $('.artist3-content').toggleClass('show')
-})
-
-$('.artist1').click(function() {
-    $('.artist1-content').toggleClass('show')
-})
-$('.artist2').click(function() {
-    $('.artist2-content').toggleClass('show')
-})
-$('.artist3').click(function() {
-    $('.artist3-content').toggleClass('show')
+$('.ozuna').click(function() {
+    $('.ozuna-content').toggleClass('show')
 })
 
-
-$('.artist1').click(function() {
-    $('.artist1-content').toggleClass('show')
+$('.supremes').click(function() {
+    $('.supremes-content').toggleClass('show')
 })
-$('.artist2').click(function() {
-    $('.artist2-content').toggleClass('show')
+$('.beegees').click(function() {
+    $('.beegees-content').toggleClass('show')
 })
-$('.artist3').click(function() {
-    $('.artist3-content').toggleClass('show')
+$('.louis').click(function() {
+    $('.louis-content').toggleClass('show')
 })
 
 
-$('.artist1').click(function() {
-    $('.artist1-content').toggleClass('show')
+$('.avril').click(function() {
+    $('.avril-content').toggleClass('show')
 })
-$('.artist2').click(function() {
-    $('.artist2-content').toggleClass('show')
+$('.britney').click(function() {
+    $('.britney-content').toggleClass('show')
 })
-$('.artist3').click(function() {
-    $('.artist3-content').toggleClass('show')
+$('.jason').click(function() {
+    $('.jason-content').toggleClass('show')
+})
+
+
+$('.backkeys').click(function() {
+    $('.blackkeys-content').toggleClass('show')
+})
+$('.cage').click(function() {
+    $('.cage-content').toggleClass('show')
+})
+$('.ziggy').click(function() {
+    $('.ziggy-content').toggleClass('show')
 })
 
