@@ -101,7 +101,7 @@ h3{
 }
 .content p{
   font-size: medium;
-  width:50%;
+  
   
 }
 
@@ -115,22 +115,24 @@ section{
 .reggaeton {
   position:relative;
   background-color: #ff006a;
-  
+  display: flex;
 }
 .oldies{
   position:relative;
   background-color:#bd00ff;
-  
+  display: flex;
 }
 .pop{
   position:relative;
   background-color:#3300ff;
+  display: flex;
   
 }
 .indie{
   position:relative;
-  background-color:#d4ef2d;
+  background-color:#55c753;
   display: flex;
+  
 }
 
 /*CONTENT SHOW*/
@@ -141,14 +143,22 @@ section{
 
 img{
   max-width: 500px;
+  height:fit-content;
 
 }
-
+div{
+  display: flex;
+  flex-wrap: wrap;
+}
 /*ARTIST POSITIONS*/
 
 .jblavin {
   position: relative;
   flex: 1;
+}
+.jbalvin-content{
+  width:50%;
+  position: relative;
 }
 .daddyyankee {
   position: relative;
@@ -162,40 +172,40 @@ img{
 
 .louis {
   position: relative;
-  
+  flex: 1;
 }
 .supremes {
   position: relative;
-  
+  flex: 1;
 }
 .beegees{
   position: relative;
-  
+  flex: 1;
 }
 .britney {
   position: relative;
- 
+  flex: 1;
 }
 .avril {
   position: relative;
-  
+  flex: 1;
 }
 .jason {
   position: relative;
-  
+  flex: 1;
 }
 
 .cage {
   position: relative;
-  
+  flex: 1;
 }
 .blackkeys {
   position: relative;
-  
+  flex: 1;
 }
 .ziggy {
   position: relative;
-  ;
+  flex: 1;
 }
 
 
