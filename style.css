@@ -141,3 +141,9 @@ article.right { flex:50%;}
 .two-cols p{
     width: 100%;
 }
+
+
+.caava{
+  display: flex;
+  flex-wrap: wrap;
+}
