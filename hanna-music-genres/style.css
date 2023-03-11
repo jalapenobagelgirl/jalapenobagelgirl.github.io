@@ -100,22 +100,28 @@ h3{
 
 }
 
-h1{
+h1 {
   display: flex;
   position: relative;
-  border:1px solid #3300ff;
+  font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
-  transform-origin: center;
+  transform-origin:left;
   height: min-content;
   font-size: 200px;
-  text-align: center;
-  margin:0;
+  text-align:left;
+  margin-top: 900px;
+  margin-left: 150px;
+  margin-bottom: 0px;
 }
+
+
 
 section{
   width:100vw;
   height: 100vh;
   margin:0;
+
+  
   
 }
 /*sections*/
@@ -167,7 +173,7 @@ div{
   width: 100%;
   height: auto;
 }
-.jbalvin-content{
+.jbalvin .content{
   position: relative;
   flex: 1;
   display: block;
@@ -181,7 +187,7 @@ div{
   width: 100%;
   height: auto;
 }
-.daddyyankee-content {
+.daddyyankee .content {
   position: relative;
   display: block;
   width: 100%;
@@ -194,9 +200,9 @@ div{
   width: 100%;
   height: auto;
 }
-.ozuna-content {
+.ozuna .content {
   position: relative;
-  display: block;
+  display: hide;
   width: 100%;
   height: auto;
 }
