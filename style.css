@@ -147,3 +147,8 @@ article.right { flex:50%;}
   display: flex;
   flex-wrap: wrap;
 }
+
+.suite{
+  display: flex;
+  flex-wrap: wrap;
+}
