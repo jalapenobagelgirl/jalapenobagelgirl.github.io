@@ -14,27 +14,45 @@ html {
 body{
     margin:0;
     font-family: 'Manrope', sans-serif; 
+    background-color: rgb(0, 0, 0);
+}
+
+section{
+  width: auto;
+  height:auto;
+  
+
+}
+p{
+    position: relative;
+
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+img{
+  width: 400px;
 }
 
 /* NAV BAR */
+
 .nav{
     display:flex;
     flex: 1;
     margin: 0;
     padding: 3% 20% 2%;
     justify-content:space-between;
-    z-index:99;
 }
-
 .nav ul{
-    
 list-style: none;
   display: flex;
   flex: 1;
   top: 0;
   position: fixed;
 z-index:99;
-
 }
 .nav a{
     color: black;
@@ -45,8 +63,6 @@ z-index:99;
     padding: 10px 30px;
     border-radius: 30px;
     font-size: 20px;
-   
-    
 }
 .nav a:hover{
     color:white;
@@ -54,37 +70,28 @@ z-index:99;
 }
   
 
-
-
-
-
 /* Home Page */
 
 .home-page{  
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  margin:0;
+  margin:auto;
   position: relative;
-  background-color: #0000ff;
+  justify-content: center;
+  text-align: center;
 
 }
-.main-logo-big{
-  display:flex;
-  width: 30%;
-  margin: auto;
-  z-index: 97;
-  
-}
+
 .info-home-page{
-  display: flex;
-  justify-content: center;
-  margin:0;
-  text-align: center;
+  width:400px;
+  text-align:center;
   font-weight: 300;
-  z-index: 98;
-  
-  position: relative;
   color:white;
 }
+
+
+/*slideshow*/
 
 .gallery-container{
   display:flex;
@@ -110,26 +117,36 @@ z-index:99;
 
 /* OUR STORY */
 
-.about-page{
-    display:flex;
-    height: 100vh;
+#about-page{
+    padding:0 200px;
+    height: auto;
     position: relative;
-    margin: 0 20%;
+    background-color: khaki;
     
 }
 
-.about-title{
+#about-page h1{
     font-family: 'Seymour One', sans-serif;
     font-size: 40px;
     color: #F51A6C;
-    position: relative;
+
+    
 }
 
-.about-page-div{
-  flex: 1;
+.two-cols{
+  display:flex;
+  justify-content: space-around;
+  padding:20px;
+
+}
+.left {
+  flex:20%;
   
 }
-
+.right {
+  flex:80%;
+  
+}
 
 
 /* DRINKS PAGE */
@@ -137,54 +154,43 @@ z-index:99;
 .drinks-page{
     height: 100vh;
     position: relative;
-    margin: 0 20%;
+    margin: auto;
+    width: 1000px;;
     color: #F51A6C;
+    background-color: aliceblue;
+    
 }
-.drinks-title{
+.drinks-page h1{
     font-family: 'Seymour One', sans-serif;
     font-size: 40px;
     color:#41CCC0;
     
 }
+.slushies{
+  color:#EF5E18;
+}
+
 
 /* FOOD PAGE */
 
 .food-page{
-    height: 100vh;
+    height: fit-content;
     position: relative;
-    margin: 0 20%;
+    margin: 50px auto;
+    width: 1000px;
     color:blue;
+    background-color:cornsilk;
     
 }
-.food-title{
-    font-family: 'Seymour One', sans-serif;
+.food-page h1{
+  font-family: 'Seymour One', sans-serif;
     font-size: 40px;
     color:blue;
     
 }
 
-h4{
-  padding:0;
-}
-p{
-    position: relative;
-    max-width: 60%;
-    margin:auto;
 
-}
 
-ul{
-    text-decoration: none;
-    list-style: none;
-    
-}
-
-.slushies{
-    color:#EF5E18;
-}
-.small-plates{
-
-}
 
 /*happy hour*/
 
@@ -200,38 +206,6 @@ ul{
     
 }
 
-/*
-body {
-  margin: 0;
-  padding: 0;
-  color: black;
-  font-size: 144px;
-  font-weight: bold;
-}
-
-.marquee {
-  position: relative;
-  width: 400vw;
-
-max-width: 400%;
-height: 200px;
-overflow-x: hidden;
-}
-
-.track {
-position: absolute;
-white-space: nowrap;
-will-change: transform;
-animation: marquee 9s linear infinite;
-animation-fill-mode:forwards;
-}
-
-@keyframes marquee {
-from { transform: translateX(-100%); }
-to { transform: translateX(100%); }
-}
-*/
-
 .sticky {
   position: fixed;
   top: 0;
@@ -242,5 +216,24 @@ to { transform: translateX(100%); }
 /*images*/
 
 .fish-sando{
-  max-width: 400px;
+  min-width: 400px;
+}
+
+
+footer{
+  position:absolute;
+  width: 100%;
+  text-align: center;
+  margin:0;
+  padding:50px;
+  background-color: orangered;
+  
+
+  }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
 }
