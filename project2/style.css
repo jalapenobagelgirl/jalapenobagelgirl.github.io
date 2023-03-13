@@ -195,6 +195,12 @@ a:visited{
   padding: 0 50px;
   
 }
+#flame{
+  min-width:200px;
+  height:fit-content;
+  position:relative;
+  flex:1;  
+}
 .cocktails-two-col{
   display:flex;
   align-content: flex-end;
@@ -221,14 +227,7 @@ a:visited{
   
 }
 
-#flame{
-  width:300px;
-  height:fit-content;
-  position:relative;
-  flex:1;
-  
-  
-}
+
 
 #ocean{
   width:100vw;
@@ -287,7 +286,6 @@ a:visited{
   height: 50vh;
   width: 100%;
   margin:40px 0 30px 0;
-  background-color: rgb(255, 121, 72);
   color: white;
 }
 
