@@ -17,6 +17,7 @@ body {
 margin:0;
 color:white;
 font-family: 'Quicksand', sans-serif;
+min-width: 100%;
 }
 
 nav {
@@ -64,6 +65,16 @@ nav a:hover{
 
   /*jiggle*/
 }
+.star-small{
+  width:70px;
+ height: min-content;
+  position: relative;
+}
+.star-big{
+  width: auto;
+  position: relative;
+}
+
 header {
   width:100vw;
   height: 100vh;
@@ -106,12 +117,12 @@ h1 {
   font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
   transform-origin:left;
-  height: min-content;
   font-size: 200px;
   text-align:left;
   margin-top: 900px;
   margin-left: 150px;
   margin-bottom: 0px;
+  z-index: 10;
 }
 
 
@@ -120,32 +131,31 @@ section{
   width:100vw;
   height: 100vh;
   margin:0;
-
-  
-  
+  display:flex;
+   
 }
 /*sections*/
 
 .reggaeton {
   position:relative;
   background-color: #fff500;
-  display: flex;
+  
 }
 .oldies{
   position:relative;
   background-color:#bd00ff;
-  display: flex;
+  
 }
 .pop{
   position:relative;
   background-color:#3300ff;
-  display: flex;
+  
   
 }
 .indie{
   position:relative;
   background-color:#d4ef2d;
-  display: flex;
+  
   
 }
 
@@ -153,125 +163,91 @@ section{
 
 .show {
     opacity:1;
+    color:hotpink;
 }
+.content{
+  z-index: 99;
+  display: none;
 
+    
+}
+ 
 img{
-  max-width: 500px;
-  height:fit-content;
+  width: 500px;
+  height:auto;
 
 }
-div{
-  display: flex;
-  flex-wrap: wrap;
+:root {
+  --animate-delay: 2s;
 }
+
+
 /*ARTIST POSITIONS*/
 
-.jblavin {
+.jblavin img {
   position: relative;
-  flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+  flex: 30%;
 }
-.jbalvin .content{
-  position: relative;
-  flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 .daddyyankee {
   position: relative;
-  flex:1;
-  display: block;
-  width: 100%;
-  height: auto;
+  flex:40%;
 }
-.daddyyankee .content {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 .ozuna {
   position: relative;
-  flex:1;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.ozuna .content {
-  position: relative;
-  display: hide;
-  width: 100%;
-  height: auto;
+  flex:20%;
+  
 }
 
 .louis {
   position: relative;
   flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+  
 }
 .supremes {
   position: relative;
   flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+
 }
 .beegees{
   position: relative;
   flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+
 }
 
 
 .britney {
   position: relative;
   flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
 }
 .avril {
   position: relative;
   flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+  
 }
 .jason {
   position: relative;
   flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+  
 }
 
 
 .cage {
   position: relative;
-  flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+  flex: 40%;
+  
 }
 .blackkeys {
   position: relative;
-  flex: 1;
-  display: block;
+  flex: 20%;
+  
   
 }
 .ziggy {
   position: relative;
-  flex: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+  flex: 20%;
+  
 }
 
 
@@ -289,3 +265,12 @@ footer {
 
 }
 
+
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+}
