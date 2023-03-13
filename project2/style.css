@@ -160,26 +160,39 @@ list-style: none;
 
 /* DRINKS PAGE */
 
-.drinks-page{
+#drinks-page{
     position: relative;
     color: #F51A6C;
     
     
 }
-.drinks-page h1{
+#drinks-page h1{
     font-family: 'Seymour One', sans-serif;
     font-size: 100px;
     color:#41CCC0;
     
 }
+.drink-container{
+  display: flex;
+  justify-content: center;
+  width:1500px;
+  margin:auto;
+}
 
 .slushies{
-  width:500px;
-  margin: auto;
+  flex:1;
 }
 .cocktails{
+  flex:1;
+}
+#flame{
   width:500px;
-  margin: auto;
+  height:fit-content;
+}
+
+#ocean{
+  width:100vw;
+  margin:0;
 }
 
 
