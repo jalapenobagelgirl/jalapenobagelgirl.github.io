@@ -43,6 +43,12 @@ img{
   width: 500px;
 }
 
+
+h4{
+  margin:10px 0 5px 0;
+}
+
+
 /* NAV BAR */
 
 .nav{
@@ -76,6 +82,10 @@ list-style: none;
     background-color: #F51A6C;
 }
   
+a:visited{
+  text-decoration: none;
+
+}
 
 /* Home Page */
 
@@ -206,19 +216,21 @@ list-style: none;
 #food-page h1{
   font-family: 'Seymour One', sans-serif;
     font-size: 100px;
-    margin:200px 0 100px 0; 
+    margin:150px 0 50px 0; 
     color:blue;
     
 }
 .food-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width:1500px;
   margin:auto;
+  padding: 0 50px;
   
 }
 .left-small{
   flex:1;
+  padding:30px
   
 }
 .right-entrees{
@@ -232,7 +244,20 @@ list-style: none;
 #contact{
   display:flex;
   height: 50vh;
+  width: 100%;
+  text-align: center;
+  margin:0;
+  padding:50px;
+  background-color: rgb(255, 121, 72);
+  color: white;
 }
+#contact-info{
+
+}
+.anniv{
+  color: white;
+}
+
 
 
 /*happy hour*/
@@ -268,10 +293,15 @@ footer{
   text-align: center;
   margin:0;
   padding:50px;
-  background-color: orangered;
-  color: whitesmoke;
   
   }
+
+  #grubhub{
+    border: 1px solid white;
+    border-radius: 30px;
+    
+  }
+
 
 /* FOR MOBILE */
 
