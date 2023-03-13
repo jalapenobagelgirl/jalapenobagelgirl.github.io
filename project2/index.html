@@ -7,6 +7,10 @@
     <title>The ALIBI Tiki Lounge</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
@@ -15,12 +19,12 @@
                 <a href="#about-page">ABOUT</a>
                 <a href="#drinks-page">DRINKS</a>
                 <a href="#food-page">FOOD</a>
-                <a href="">CONTACT</a>
+                <a href="#contact">CONTACT</a>
         </div>
 
     <header class="home-page">
         <h2 class="info-home-page">
-        <img src="images/logo-alibi.png">
+        <img class="animate__animated animate__zoomIn" src="images/logo-alibi.png">
         
             <strong>Hours Every day 11:30am—2:30am</strong><br>
             4024 N Interstate Ave <br>
@@ -42,11 +46,11 @@
 
 <section id="about-page">
     <article class="two-cols">
-        <div class="left"><img src="images/lumpia.png"></div>
+        <div class="left"><img id="lumpia" src="images/lumpia.png"></div>
        <div class="right">
         <h1>OUR STORY</h1>
-            <p class="about-content">The original home of The ALIBI was a nice stop for horses and buggies as they traveled up and down the dirt trail known as the Inter-state in the late 1800's. "Chat-n-nibble", as it was known to travelers then served up some of the finest grub a fellow could find at a breakfast and lunch counter. A small beginning! The next business to call the spot home was a tiny tavern run by Mr. Peterson, "Max Alibi" was a popular place to stop, and saw much success under his ownership. Peterson gave the business a name that would last far into the 1990's. The third owner Roy Ell saw a jewel of a restaurant in this little stop. He leased the building in 1947 and renamed the place "The ALIBI."
-
+            <p class="about-content">The original home of The ALIBI was a nice stop for horses and buggies as they traveled up and down the dirt trail known as the Inter-state in the late 1800's. "Chat-n-nibble", as it was known to travelers then served up some of the finest grub a fellow could find at a breakfast and lunch counter. A small beginning! The next business to call the spot home was a tiny tavern run by Mr. Peterson, "Max Alibi" was a popular place to stop, and saw much success under his ownership. Peterson gave the business a name that would last far into the 1990's. The third owner Roy Ell saw a jewel of a restaurant in this little stop. He leased the building in 1947 and renamed the place "The ALIBI."</p>
+<p>
             In 1992, the current owner, Larry White, took over and has agreed to keep the style and flourish what has been so magnificent for some 50 years. As you sit in The ALIBI Lounge, Restaurant or one of the many nooks and shelters, under shell lamp shades in bamboo cane chairs, you can almost feel the cool summer breeze blow across the beach. Sipping tantalizing tropical drinks, letting the atmosphere sink in, nibbling on seafood appetizers and entrees, it's so easy to relax and enjoy a mini vacation in the midst of your day. </p>
         </div>
     </article> 
@@ -55,63 +59,69 @@
     <section class="drinks-page" id="drinks-page">
         <h1>DRINKS</h1>
             <h3>SLUSHIES 10</h3>
-                <ul class="slushies"> 
-                    <li>Piña Colada St Croix dark rum, coconut, pineapple, blackstrap rum float</li>
-                    <li>Strawberry Daiquiri
-                    Cruzan light rum, wray & nephew rum, strawberry, lime</li>
-                    <li>Miami Vice
-                    A mix of our piña colada and strawberry daquiri slushies</li>
-                </ul>
+                <div class="slushies"> 
+                    <h4>Piña Colada</h4> St Croix dark rum, coconut, pineapple, blackstrap rum float
+                    <h4>Strawberry Daiquiri</h4>
+                    Cruzan light rum, wray & nephew rum, strawberry, lime
+                    <h4>Miami Vice</h4>
+                    A mix of our piña colada and strawberry daquiri slushies
+                </div>
+                <br>
             <h3>BOWLS 29</h3>
             <h4>FOR TWO OR MORE PARTIERS</h4>
-                <ul> 
-                    <li>Scorpion Bowl</li>
-                    <li>The Glory Bowl</li>
-                    <li>Palms Beach</li>
-                </ul>
+                 
+                    <h4>Scorpion Bowl</h4>
+                    <h4>The Glory Bowl</h4>
+                    <h4>Palms Beach</h4>
+                
+        <div class="cocktails">
             <h3>COCKTAILS 13</h3>
-                <ul> 
-                    <li>Mai Tai
-                    Martenique rum, Jamaican rum blend, orange curaçao, lime, orgeat</li>
-                    <li>Hurricane
-                    a perfect storm of light & dark rums, passion fruit, orange, lemon, grenadine</li>
-                    <li>Jungle Bird
-                    Jamaican rum, campari, pineapple, lime</li>
-                    <li>Rain Killer
-                    white & golden rum, lime, pineapple, orange, angostura bitters</li>
-                    <li>Leilani Volcano
-                    gold & coconut rum eruption, guava,  pineapple, lime</li>
-                    <li>Banana Hammock
-                    tropical rum blend, banana liqueur, orange curaçao, lemon, coconut cream, tiki bitters</li>
-                    <li>Shark Attack
-                    portland 88 vodka, wray & nephew rum, maraschino liqueur, blue curaçao, pineapple, grenadine</li>
-                    <li>Singapore Sling
-                    aviation gin, cherry heering, benedictine, pineapple, lime, bitters</li>
-                    <li>Saturn
-                    new deal 33 gin, falernum, passion fruit, lemon, orgeat</li>
-                    <li>Halekulani
-                    buffalo trace bourbon, orange, pineapple, lemon, grenadine, angostura bitters</li>
-                    <li>Vicious Virgin No 2
-                    altos blanco tequila, light rum, orgeat, blue curaçao, grapefruit, lime</li>
+                 
+                    <h4>Mai Tai</h4>
+                    Martenique rum, Jamaican rum blend, orange curaçao, lime, orgeat
+                    <h4>Hurricane</h4>
+                    a perfect storm of light & dark rums, passion fruit, orange, lemon, grenadine
+                    <h4>Jungle Bird</h4>
+                    Jamaican rum, campari, pineapple, lime
+                    <h4>Rain Killer</h4>
+                    white & golden rum, lime, pineapple, orange, angostura bitters
+                    <h4>Leilani Volcano</h4>
+                    gold & coconut rum eruption, guava,  pineapple, lime
+                    <h4>Banana Hammock</h4>
+                    tropical rum blend, banana liqueur, orange curaçao, lemon, coconut cream, tiki bitters
+                    <h4>Shark Attack</h4>
+                    portland 88 vodka, wray & nephew rum, maraschino liqueur, blue curaçao, pineapple, grenadine
+                    <h4>Singapore Sling</h4>
+                    aviation gin, cherry heering, benedictine, pineapple, lime, bitters
+                    <h4>Saturn</h4>
+                    new deal 33 gin, falernum, passion fruit, lemon, orgeat
+                    <h4>Halekulani</h4>
+                    buffalo trace bourbon, orange, pineapple, lemon, grenadine, angostura bitters
+                    <h4>Vicious Virgin No 2</h4>
+                    altos blanco tequila, light rum, orgeat, blue curaçao, grapefruit, lime
 
-                </ul>
-                <p>Zombie 14
+                </div>
+
+                <h4>Zombie 14
                     limit two per person
                     virgin island rums, .......
-                    </p>
-        <!--happy hour marquee-->
+                </h4>
+       
 
-        <marquee class="happy-hour" scrollamount="20" width="100%" direction="left" height="100px">
-         HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM 
+    </section>
+        <!--happy hour marquee-->
+       <section> <marquee class="happy-hour" scrollamount="20" width="100%" direction="left" height="100px">
+         HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM HAPPY HOUR 2—7 PM 
         </marquee>
-            
     </section>
 
     <section class="food-page" id="food-page"> <!--this section needs unordered lists for menu items, menu section headings, and images-->
         <h1>FOOD</h1>
-        
+        <br>
+    <div class="food-container">
+        <div class="left-small">
         <h3>SMALL PLATES</h3>
-        <ul>
+        
             <h4>House Salad 8.5</h4>
             butter lettuce, macadamia nuts, toasted edamame, spicy citrus vinaigrette
             <h4>Lumpia 11.5</h4>
@@ -124,56 +134,45 @@
             served with alibi sauce
             <h4>Potstickers 10</h4>
             pork dumplings served with sweet soy sauce
-        </ul>
-        <h3>ENTREES</h3>
-        <ul>
-            <li><h4>Teriyaki Chicken 15</h4>
-            Slow marinated, grilled pineapple, mac & rice</li>
-            <li><h4>Fish & Chips 16</h4>
-            Tempura cod, house tartar & waffle fries. includes a side of house slaw.</li>
-            <li><h4>Kalua Pork 15</h4>
-            banana leaf braised pork, bbq sauce, mac & rice</li>
-            <li><h4>Aloha Plate 17</h4>
-            teriyaki chicken & kalua pork, mac & rice</li>
-        </ul>
+        </div>
+    
 
+       <div class="right-entrees">
+        <h3>ENTREES</h3>
+        
+            <h4>Teriyaki Chicken 15</h4>
+            Slow marinated, grilled pineapple, mac & rice
+            <h4>Fish & Chips 16</h4>
+            Tempura cod, house tartar & waffle fries. includes a side of house slaw.
+            <h4>Kalua Pork 15</h4>
+            banana leaf braised pork, bbq sauce, mac & rice
+            <h4>Aloha Plate 17</h4>
+            teriyaki chicken & kalua pork, mac & rice
+        </div>
+        <div>
+            <h4>Sticky White Rice 3</h4>
+            <h4>Salad 8.5</h4>
+            <h4>Hawaiian Mac Salad 4</h4></div>
+    </div>
 
         <img class="fish-sando" src="images/fish-sandwich.png">
 
-        <div class="sides">
-        <h3>SIDES</h3>
-        
-            <h4>Sticky White Rice 3</h4>
-            <h4>Salad 8.5</h4>
-            <h4>Hawaiian Mac Salad 4</h4>
-        </div>
           
             
-    </section>
-    <section class="contact" id="contact">
+</section>
 
-    </section>
+<section class="contact" id="contact">
+    <footer>
+        <p>CONTACT</p>
+        <p>Address</p>
+        <p>Phone</p>
+        <p>Newsletter</p>
+        <p>copyright &copy; THE ALIBI 2023</p>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var nav = document.getElementById("nav");
-        var sticky = nav.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            nav.classList.add("sticky")
-          } else {
-            nav.classList.remove("sticky");
-          }
-        }
-         </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
-<footer>
-    hello
-</footer>
+</section>
+
+   
 
 </body>
 
