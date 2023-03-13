@@ -31,8 +31,6 @@ p{
     position: relative;
     width: 500px;
     margin:auto;
-    
-
 }
 
 ul{
@@ -40,6 +38,7 @@ ul{
     list-style: none;
     
 }
+
 img{
   width: 500px;
 }
@@ -80,7 +79,7 @@ list-style: none;
 
 /* Home Page */
 
-.home-page{  
+#home-page{  
   display: flex;
   flex-wrap: wrap;
   margin:0;
@@ -88,7 +87,6 @@ list-style: none;
   justify-content: center;
   text-align: center;
   
-
 }
 
 .info-home-page{
