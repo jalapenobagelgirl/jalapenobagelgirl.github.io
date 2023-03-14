@@ -48,11 +48,11 @@ img{
 }
 
 h3{
-  font-size:40px;
+  font-size:30px;
   margin:0;
 }
 h4{
-  margin:20px 0;
+  margin:10px 0;
   
 }
 
@@ -294,11 +294,7 @@ a:visited{
 
 /*CONTACT*/
 
-.logo-footer{
-  width:300px;
-  height:fit-content;
-  position:relative;
-}
+
 #contact{
   height: fit-content;
   width: 100%;
@@ -317,14 +313,15 @@ a:visited{
 
 .contact{
   display:flex;
-justify-content: center;
-width:1500px;
+justify-content: space-around;
+width:1700px;
 margin:auto;
+
 }
-.order{
+.logo-footer{
   flex:1;
-  
- }
+}
+
 .contact-info{
   flex:1;
   
@@ -359,8 +356,7 @@ width:300px;
   color:#F51A6C;
   font-weight: 700;
   font-size: large;
-
-  
+  z-index: 10;
 }
 
 
@@ -453,17 +449,31 @@ section{
     padding:50px 0 0 0;
   }
   .drink-container{
-    display: flex;
+    padding:40px;
     flex-direction: column;
 
    }
+   .slushies{
+    width:400px;
+    padding:0 50px;
+   }
+   .bowls{
+    width:400px;
+  padding:0 50px;
+   }
+   
    .cocktails-two-col{
-    display: flex;
+    padding:40px;
     flex-direction: column;
 
    }
+.cocktails1{
+  width:400px;
+  padding:0 50px;
+  } 
 .cocktails2{
-  margin: 0 0 50px 0;
+  width:400px;
+  padding:0 50px;
 }
 
 /* FOOD */
@@ -474,7 +484,7 @@ section{
     margin:0;
   }
 .food-container{
-    display: flex;
+  padding:40px;
     flex-direction: column;
     
    }
@@ -500,4 +510,12 @@ section{
   width: 100%;
   margin:auto;
   
+}
+.contact{
+
+flex-direction: column;
+width: 400px;
+margin:auto;
+
+
 }
