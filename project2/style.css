@@ -12,7 +12,8 @@ html {
 }
 
 body{
-    margin:0;
+  width:100vw;  
+  margin:0;
     font-family: 'Manrope', sans-serif; 
     background-color: black;
     color: white;
@@ -20,10 +21,11 @@ body{
 
 section{
   height: 100vh;
-  margin: 50px 0;
+  margin: 70px 0;
   position:relative;
   
 }
+
 
 h1{
   display:flex;
@@ -31,7 +33,7 @@ h1{
 }
 p{
     position: relative;
-    width: 500px;
+    max-width: 500px;
     margin:auto;
 }
 
@@ -42,12 +44,16 @@ ul{
 }
 
 img{
-  width: 500px;
+  width: 100%;
 }
 
-
+h3{
+  font-size:40px;
+  margin:0;
+}
 h4{
-  margin:10px 0 5px 0;
+  margin:20px 0;
+  
 }
 
 
@@ -148,20 +154,25 @@ a:visited{
 
     
 }
-
+#about-image{
+  width:700px;
+  height:fit-content;
+  position: relative;
+  
+}
 .two-cols{
   display:flex;
-  justify-content: space-around;
-  padding:20px 50px;
-  align-items: flex-end;
-
+  justify-content: center;
+  position: relative;
+  
 }
 .left {
   flex:1;
-  
+  padding:100px 0 100px 100px;
 }
 .right {
   flex:1;
+  padding:100px 100px 100px0;
   
 }
 
@@ -172,57 +183,60 @@ a:visited{
     position: relative;
     color:#41CCC0;
     height:fit-content;
-    margin: 50px 0 0 0;
+    margin: 80px 0 0 0;
     
 }
 #drinks-page h1{
     font-family: 'Seymour One', sans-serif;
     font-size: 100px;
     color:#41CCC0;
+    padding:50px 0 0 0;
     
 }
 .drink-container{
  display: flex;
- padding: 0 50px;
+  justify-content: space-between;
+  width:100vw;
+  margin:0;
+  padding: 0 300px;
 }
 .slushies{
   flex:1;
-  padding: 0 50px;
+  
   
 }
 .bowls{
   flex:1;
-  padding: 0 50px;
+  
   
 }
 #flame{
-  min-width:200px;
-  height:fit-content;
-  position:relative;
-  flex:1;  
+  width:400px;
 }
 .cocktails-two-col{
-  display:flex;
-  align-content: flex-end;
-  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  width:100vw;
+  margin:0;
+  padding: 0 300px;
   
 }
 .cocktails1{
   flex:1;
-  padding: 0 50px;
+  
 }
 .cocktails2{
   flex:1;
-  padding: 0 50px;
+  
 }
 
 #zombie{
-  border: 1px solid #F51A6C;
+  border: 4px dotted #F51A6C;
   text-align: center;
-  
+  max-width:300px;
   color: white;
   margin:20px 0;
-  padding: 30px;
+  padding: 20px;
   border-radius: 30px;
   
 }
@@ -253,71 +267,100 @@ a:visited{
 }
 .food-container {
   display: flex;
-  justify-content: space-evenly;
-  width:1500px;
+  justify-content: space-between;
+  width:100vw;
   margin:auto;
-  padding: 0 50px;
+  padding: 0 300px;
   
 }
 .left-small{
   flex:1;
-  padding: 0 30px;
-  
+
 }
 .right-entrees{
   flex:1;
-  padding: 0 30px;
+  
 }
 .fish-sando{
-  min-width: 400px;
+  width:400px;
+  height:fit-content;
 }
 
 #lumpia{
-  width:700px;
-  padding: 0 30px;
+  width: 400px;
+  height:fit-content;
 }
 
 
 /*CONTACT*/
 
-
+.logo-footer{
+  width:300px;
+  height:fit-content;
+  position:relative;
+}
 #contact{
-  display:flex;
-  height: 50vh;
+  height: fit-content;
   width: 100%;
-  margin:40px 0 30px 0;
   color: white;
+  background-color: darkblue;
+  padding:0 0 70px 0;
 }
 
 #contact h1{
   font-family: 'Seymour One', sans-serif;
-  font-size: 40px;
+  font-size: 60px;
   color: white;
   text-align: center;
+  padding:50px;
 }
 
-
+.contact{
+  display:flex;
+justify-content: center;
+width:1500px;
+margin:auto;
+}
+.order{
+  flex:1;
+  
+ }
+.contact-info{
+  flex:1;
+  
+}
 
 #anniv{
   text-align: center;
+  flex:1;
+  
 }
 #anniv img{
 width:300px;
-text-decoration: none;
 }
 
 .purchase-link{
-  text-decoration: none;
-}
-
-#grubhub{
   border: 1px solid black;
   background-color: white;
   border-radius: 30px;
-  
+  padding:10px 30px;
+  text-decoration: none;
+  color:#F51A6C;
+  font-weight: 700;
+  font-size: large;
 }
-#grubhub a{
-text-decoration: none;
+
+.grubhub{
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 30px;
+  padding:10px 30px;
+  text-decoration: none;
+  color:#F51A6C;
+  font-weight: 700;
+  font-size: large;
+
+  
 }
 
 
@@ -331,6 +374,7 @@ marquee{
     position:absolute;
     margin: 0;
     z-index: 10;
+    padding:0;
     
 }
 
@@ -356,6 +400,15 @@ footer{
 
 @media screen and (max-width: 700px) {
   
+
+section{
+  height: fit-content;
+  margin: auto;
+  position:relative;
+}
+.logo{
+  width:400px;
+}
   .nav{
     padding: 20px 50px;
     
@@ -368,15 +421,83 @@ footer{
     display: flex;
     flex: flex-wrap;
   }
+ p{
+    width: 90%;
+    
+  }  
+  
+  /* ABOUT */
+
   .two-cols {
     flex-direction: column;
+    justify-content: center;
   }
-  #lumpia{
+#about-image{
+  
+  width: 400px;
+}
+.left{
+  padding:40px 40px 0 40px;
+}
+.right{
+  padding:10px;
+  margin: 30px;
+}
+.right h1{
+  margin:0px 50px 30px 50px;
+}
+/* DRINKS */
+
+#drinks-page h1{
+    font-size: 70px;
+    padding:50px 0 0 0;
+  }
+  .drink-container{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .cocktails-two-col{
+    display: flex;
+    flex-direction: column;
+
+   }
+.cocktails2{
+  margin: 0 0 50px 0;
+}
+
+/* FOOD */
+
+#food-page h1{
+    font-size: 70px;
+    padding:50px 0 0 0;
+    margin:0;
+  }
+.food-container{
+    display: flex;
+    flex-direction: column;
+    
+   }
+.left-small{
+  width:400px;
+  padding:0 50px;
+    
+   }
+.right-entrees{
+  width:400px;
+  padding:0 50px;
+}
+#lumpia{
     width:400px;
     padding: 20px;
   }
-  p{
-    width: 90%;
-    
-  }
+}
+.fish-sando{
+  width:400px;
+    padding: 20px;
+}
+#contact{
+  width: 100%;
+  margin:auto;
+  
 }
