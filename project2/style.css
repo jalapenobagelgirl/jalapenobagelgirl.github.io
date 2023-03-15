@@ -205,19 +205,18 @@ a:visited{
 }
 .drink-container{
  display: flex;
-  justify-content: space-between;
   width:100vw;
   margin:0;
   padding: 0 300px;
 }
 .slushies{
   flex:1;
-  
+  padding:0 50px 0 0 ;
   
 }
 .bowls{
   flex:1;
-  
+  padding:0 0 0 50px ;
   
 }
 #flame{
@@ -225,7 +224,6 @@ a:visited{
 }
 .cocktails-two-col{
   display: flex;
-  justify-content: space-between;
   width:100vw;
   margin:0;
   padding: 0 300px;
@@ -233,11 +231,12 @@ a:visited{
 }
 .cocktails1{
   flex:1;
+  padding:0 50px 0 0;
   
 }
 .cocktails2{
   flex:1;
-  
+  padding:0 0 0 50px ;
 }
 
 #zombie{
@@ -277,7 +276,7 @@ a:visited{
 }
 .food-container {
   display: flex;
-  justify-content: space-between;
+
   width:100vw;
   margin:auto;
   padding: 0 300px;
@@ -306,7 +305,8 @@ a:visited{
 
 
 #contact{
-  height: fit-content;
+  position: relative;
+  height: 80vh;
   width: 100%;
   color: white;
   background-color: darkblue;
@@ -406,9 +406,16 @@ footer{
 
 @media screen and (max-width: 700px) {
   
-
+#happy-hour{
+    width:400px;
+    height:fit-content;
+    position: relative;
+    align-self: center;
+    padding:40px;
+}
 section{
   height: fit-content;
+ 
   margin: auto;
   position:relative;
 }
@@ -496,6 +503,7 @@ section{
 .food-container{
   padding:40px;
     flex-direction: column;
+    margin:0;
     
    }
 .left-small{
@@ -510,11 +518,13 @@ section{
 #lumpia{
     width:400px;
     padding: 20px;
+    align-items: center;
   }
-}
+
 .fish-sando{
   width:400px;
     padding: 20px;
+    align-items: center;
 }
 #contact{
   width: 100%;
