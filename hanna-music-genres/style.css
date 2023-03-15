@@ -1,31 +1,27 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quicksand:wght@500;600&display=swap');
-
-
-
 
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Quicksand', sans-serif; */
 
-*{box-sizing:border-box;}
+* {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
 
 body {
-margin:0;
-color:white;
-font-family: 'Quicksand', sans-serif;
-min-width: 100%;
+  margin: 0;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  min-width: 100%;
 }
 
 nav {
-  display:flex;
+  display: flex;
   flex: 1;
   margin: 0px 40px;
-  justify-content:flex-end;
- 
+  justify-content: flex-end;
 }
 nav ul {
   list-style: none;
@@ -33,54 +29,50 @@ nav ul {
   flex: 1;
   top: 0;
   position: fixed;
-z-index:99;
-
+  z-index: 99;
 }
 
 nav a {
-  color:blue;
-  text-decoration:none;
+  color: blue;
+  text-decoration: none;
   font-size: larger;
   text-align: center;
   width: auto;
   padding: 10px 30px;
   border: 1px solid black;
-  border-radius: 30px; 
-  background:white;
-  
+  border-radius: 30px;
+  background: white;
 }
 
-nav a:hover{
-  color:white;
-  background-color:blue;
+nav a:hover {
+  color: white;
+  background-color: blue;
 }
 
-#star{
-  width:80px;
-  margin:10px 30px;
+#star {
+  width: 80px;
+  margin: 10px 30px;
   position: fixed;
-  z-index:99;
+  z-index: 99;
 }
-#star:hover{
-
+#star:hover {
   /*jiggle*/
 }
-.star-small{
-  width:70px;
- height: min-content;
+.star-small {
+  width: 70px;
+  height: min-content;
   position: relative;
 }
-.star-big{
+.star-big {
   width: auto;
   position: relative;
 }
 
 header {
-  width:100vw;
+  width: 100vw;
   height: 100vh;
-  margin:0;
-  background-color:#ff5c00;
-  
+  margin: 0;
+  background-color: #ff5c00;
 }
 
 .mainheader {
@@ -88,134 +80,137 @@ header {
   color: white;
   position: relative;
   letter-spacing: -30px;
-  font-size: 600px;
   margin: 0px;
-  
- 
+  padding-top: 80px;
 }
-h2{
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 60px;
   color: #fff;
   position: absolute;
   margin: 150px 100px;
-  
 }
-h3{
+h3 {
   font-family: 'Oswald', sans-serif;
   font-size: larger;
-  margin:0;
+  margin: 0;
   text-align: center;
-  position:relative;
-  
-
+  position: relative;
 }
 
-h1 {
+h1.other {
   display: flex;
   position: relative;
   font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
-  transform-origin:left;
+  transform-origin: left;
   font-size: 200px;
-  text-align:left;
+  text-align: left;
   margin-top: 900px;
   margin-left: 150px;
   margin-bottom: 0px;
   z-index: 10;
 }
-
-
-
-section{
-  width:100vw;
+h1.reggaeton-h1 {
+  display: flex;
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  transform: rotate(-90deg);
+  font-size: 120px;
+  text-align: left;
+  margin-top: 150px;
+  z-index: 10;
+}
+section {
+  width: 100vw;
   height: 100vh;
-  margin:0;
-  display:flex;
-   
+  margin: 0;
+  display: flex;
+  overflow: hidden;
 }
 /*sections*/
 
+.disc {
+  width: 500px;
+}
+.star {
+  width: 100px;
+  height: fit-content;
+}
 .reggaeton {
-  position:relative;
+  position: relative;
   background-color: #fff500;
-  
 }
-.oldies{
-  position:relative;
-  background-color:#bd00ff;
-  
+.oldies {
+  position: relative;
+  background-color: #bd00ff;
 }
-.pop{
-  position:relative;
-  background-color:#3300ff;
-  
-  
+.pop {
+  position: relative;
+  background-color: #3300ff;
 }
-.indie{
-  position:relative;
-  background-color:#d4ef2d;
-  
-  
+.indie {
+  position: relative;
+  background-color: #d4ef2d;
 }
 
 /*CONTENT SHOW*/
 
 .show {
-    opacity:1;
-    color:hotpink;
+  position: absolute;
+  opacity: 1;
+  color: hotpink;
 }
-.content{
+.content {
+  position: absolute;
   z-index: 99;
-  display: none;
-
-    
+  bottom: 100px;
+  left: 100px;
 }
- 
-img{
-  width: 500px;
-  height:auto;
+.hide {
+  display: none;
+}
 
+img {
+  width: 500px;
+  height: auto;
 }
 :root {
   --animate-delay: 2s;
 }
 
-
 /*ARTIST POSITIONS*/
 
-.jblavin img {
-  position: relative;
-  flex: 30%;
+.jbalvin {
+  position: absolute;
+  top: 100px;
+  left: 40px;
 }
 
 .daddyyankee {
-  position: relative;
-  flex:40%;
+  position: absolute;
+  top: 600px;
+  left: 1200px;
 }
 
 .ozuna {
-  position: relative;
-  flex:20%;
-  
+  position: absolute;
+  top: 20px;
+  left: 600px;
 }
 
 .louis {
   position: relative;
   flex: 1;
-  
 }
 .supremes {
   position: relative;
   flex: 1;
-
 }
-.beegees{
+.beegees {
   position: relative;
   flex: 1;
-
 }
-
 
 .britney {
   position: relative;
@@ -224,53 +219,58 @@ img{
 .avril {
   position: relative;
   flex: 1;
-  
 }
 .jason {
   position: relative;
   flex: 1;
-  
 }
-
 
 .cage {
   position: relative;
   flex: 40%;
-  
 }
 .blackkeys {
   position: relative;
   flex: 20%;
-  
-  
 }
 .ziggy {
   position: relative;
   flex: 20%;
-  
 }
-
 
 footer {
   width: 500px;
-  position:relative;
-  margin:0% 40%;
-   color:#ff5c00;
-   padding: 10px 20px;
-   text-align: center;
+  position: relative;
+  margin: 0% 40%;
+  color: #ff5c00;
+  padding: 10px 20px;
+  text-align: center;
   border-radius: 50%;
   border: 1px solid #ff5c00;
   z-index: 99;
-        
-
 }
-
-
-
-
 
 @media screen and (max-width: 768px) {
   body {
     background-color: lightgreen;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: visible;
+  }
+  .disc {
+    position: static;
+    flex: 1;
+    width: 200px;
+  }
+  .star {
+    top: 30px;
+    left: 30;
+  }
+  h1.reggaeton-h1 {
+    font-size: 100px;
+    transform: rotate(0deg);
   }
 }

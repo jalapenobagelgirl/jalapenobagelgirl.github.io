@@ -1,5 +1,3 @@
-$( function() {
-    $( ".jbalvin" ).click( function() {
-      $( this ).toggleClass( ".content" );
-    });
-  });
+$('.disc').hover(function () {
+  $(this).find('.content').toggleClass('hide')
+})
