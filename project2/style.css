@@ -62,11 +62,11 @@ h4{
 .nav{
   position: fixed;
     display:flex;
-    flex: 1;
-    margin: 20px;
-    padding:50px 500px;
+    margin: 0 50px;
+    padding:30px;
+    z-index: 10;
+    width:100%;
     justify-content:center;
-    z-index:99;
     background-color: black;
 }
 .nav ul{
@@ -115,12 +115,13 @@ a:visited{
   height:fit-content;
   position: absolute;
   z-index: 10;
-  top: 20px;
+  top: 200px;
   left: 50px;
 
 }
 
 .info-home-page{
+  top:70px;
   position:relative;
   width:500px;
   font-weight: 300;
