@@ -60,12 +60,14 @@ h4{
 /* NAV BAR */
 
 .nav{
+  position: fixed;
     display:flex;
     flex: 1;
-    margin: 0;
+    margin: 20px;
     padding:50px 500px;
     justify-content:center;
     z-index:99;
+    background-color: black;
 }
 .nav ul{
 list-style: none;
@@ -107,6 +109,7 @@ a:visited{
   
 }
 
+
 #happy-hour{
   width:300px;
   height:fit-content;
@@ -118,10 +121,11 @@ a:visited{
 }
 
 .info-home-page{
+  position:relative;
   width:500px;
   font-weight: 300;
   color:white;
-  padding: 0 0 60px 0;
+  padding: 90px 0 60px 0;
 }
 
 
