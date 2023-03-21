@@ -11,10 +11,11 @@ html {
 }
 
 body {
+  display:block;
   margin: 0;
+  padding:0;
   color: white;
   font-family: 'Quicksand', sans-serif;
-  min-width: 100%;
 }
 
 nav {
@@ -58,13 +59,14 @@ nav a:hover {
 #star:hover {
   /*jiggle*/
 }
-.star-small {
+.star2 {
   width: 70px;
   height: min-content;
   position: relative;
 }
 .star-big {
-  width: auto;
+  width: 100px;
+  height: min-content;
   position: relative;
 }
 
@@ -92,13 +94,25 @@ h2 {
 }
 h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: larger;
+  font-size: 30px;
   margin: 0;
   text-align: center;
-  position: relative;
+  
+}
+.disc {
+  width: 500px;
 }
 
-h1.other {
+
+section {
+  width:100vw;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding:0;
+  
+}
+/*h1.other {
   display: flex;
   position: relative;
   font-family: 'Oswald', sans-serif;
@@ -110,57 +124,64 @@ h1.other {
   margin-left: 150px;
   margin-bottom: 0px;
   z-index: 10;
-}
-h1.reggaeton-h1 {
-  display: flex;
-  position: relative;
+}*/
+
+.reggaeton h1 {
+
   font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
   font-size: 120px;
   text-align: left;
-  margin-top: 150px;
+  margin: 600px 50px 200px 50px;
   z-index: 10;
 }
-section {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  overflow: hidden;
+
+.oldies h1 {
+  font-family: 'Oswald', sans-serif;
+  transform: rotate(-90deg);
+  font-size: 120px;
+  text-align: left;
+  margin: 600px 50px 200px 50px;
+  z-index: 10;
 }
+
+.pop h1 {
+  font-family: 'Oswald', sans-serif;
+  transform: rotate(-90deg);
+  font-size: 120px;
+  text-align: left;
+  margin: 600px 50px 200px 50px;
+  z-index: 10;
+}
+
+.indie h1 {
+  font-family: 'Oswald', sans-serif;
+  transform: rotate(-90deg);
+  font-size: 120px;
+  text-align: left;
+  margin: 600px 50px 200px 50px;
+  z-index: 10;
+}
+
+
+
 /*sections*/
 
-.disc {
-  width: 500px;
-}
-.star {
-  width: 100px;
-  height: fit-content;
-}
-.reggaeton {
-  position: relative;
+#reggaeton {
   background-color: #fff500;
 }
-.oldies {
-  position: relative;
+#oldies {
   background-color: #bd00ff;
 }
-.pop {
-  position: relative;
+#pop {
   background-color: #3300ff;
 }
-.indie {
-  position: relative;
+#indie {
   background-color: #d4ef2d;
 }
 
 /*CONTENT SHOW*/
 
-.show {
-  position: absolute;
-  opacity: 1;
-  color: hotpink;
-}
 .content {
   position: absolute;
   z-index: 99;
@@ -200,42 +221,54 @@ img {
 }
 
 .louis {
-  position: relative;
-  flex: 1;
+  position: absolute;
+  top: 20px;
+  left: 600px;
 }
 .supremes {
-  position: relative;
-  flex: 1;
+  position: absolute;
+  top: 20px;
+  left: 600px;
 }
 .beegees {
-  position: relative;
-  flex: 1;
+  position: absolute;
+  top: 20px;
+  left: 600px;
 }
 
 .britney {
-  position: relative;
-  flex: 1;
+  position: absolute;
+  top: 20px;
+  left: 600px;
 }
 .avril {
-  position: relative;
-  flex: 1;
+  position: absolute;
+  top: 20px;
+  left: 600px;
+  
 }
 .jason {
-  position: relative;
-  flex: 1;
+  position: absolute;
+  top: 20px;
+  left: 600px;
+  
 }
 
 .cage {
-  position: relative;
-  flex: 40%;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  
 }
 .blackkeys {
-  position: relative;
-  flex: 20%;
+  position: absolute;
+  top: 20px;
+  left: 600px;  
 }
 .ziggy {
-  position: relative;
-  flex: 20%;
+  position: absolute;
+  top: 20px;
+  left: 600px;  
 }
 
 footer {
@@ -250,7 +283,14 @@ footer {
   z-index: 99;
 }
 
-@media screen and (max-width: 768px) {
+
+
+
+
+
+
+
+@media screen and (max-width: 868px) {
   body {
     background-color: lightgreen;
   }
@@ -259,7 +299,19 @@ footer {
     flex-direction: column;
     height: auto;
     overflow: visible;
+    height:fit-content;
   }
+
+  .content {
+    position: absolute;
+    z-index: 99;
+    bottom: 50px;
+    left: 50px;
+  }
+  .hide {
+    display: none;
+  }
+  
   .disc {
     position: static;
     flex: 1;
@@ -269,8 +321,20 @@ footer {
     top: 30px;
     left: 30;
   }
-  h1.reggaeton-h1 {
-    font-size: 100px;
+  .reggaeton h1 {
+    font-size: 80px;
+    transform: rotate(0deg);
+  }
+  .oldies h1 {
+    font-size: 80px;
+    transform: rotate(0deg);
+  }
+  .pop h1 {
+    font-size: 80px;
+    transform: rotate(0deg);
+  }
+  .indie h1 {
+    font-size: 80px;
     transform: rotate(0deg);
   }
 }
