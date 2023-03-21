@@ -11,9 +11,7 @@ html {
 }
 
 body {
-  display:block;
-  margin: 0;
-  padding:0;
+  margin:0;
   color: white;
   font-family: 'Quicksand', sans-serif;
 }
@@ -73,30 +71,32 @@ nav a:hover {
 header {
   width: 100vw;
   height: 100vh;
-  margin: 0;
   background-color: #ff5c00;
 }
 
-.mainheader {
+.mainheader{
   font-family: 'Oswald', sans-serif;
   color: white;
   position: relative;
   letter-spacing: -30px;
   margin: 0px;
-  padding-top: 80px;
+  padding-top: 60px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 60px;
   color: #fff;
   position: absolute;
-  margin: 150px 100px;
+  margin: 150px 100px 80px 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   margin: 0;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   
 }
 .disc {
@@ -105,29 +105,18 @@ h3 {
 
 
 section {
-  width:100vw;
+  width: 100vw;
   height: 100vh;
-  position: relative;
   margin: 0;
+  position: relative;
   padding:0;
   
 }
-/*h1.other {
-  display: flex;
-  position: relative;
-  font-family: 'Oswald', sans-serif;
-  transform: rotate(-90deg);
-  transform-origin: left;
-  font-size: 200px;
-  text-align: left;
-  margin-top: 900px;
-  margin-left: 150px;
-  margin-bottom: 0px;
-  z-index: 10;
-}*/
 
-.reggaeton h1 {
+/* HEADINGS */
 
+#reggaeton h1 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
   font-size: 120px;
@@ -136,7 +125,8 @@ section {
   z-index: 10;
 }
 
-.oldies h1 {
+#oldies h1 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
   font-size: 120px;
@@ -145,7 +135,8 @@ section {
   z-index: 10;
 }
 
-.pop h1 {
+#pop h1 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
   font-size: 120px;
@@ -154,7 +145,8 @@ section {
   z-index: 10;
 }
 
-.indie h1 {
+#indie h1 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
   font-size: 120px;
@@ -162,7 +154,6 @@ section {
   margin: 600px 50px 200px 50px;
   z-index: 10;
 }
-
 
 
 /*sections*/
@@ -233,13 +224,13 @@ img {
 .beegees {
   position: absolute;
   top: 20px;
-  left: 600px;
+  left: 1700px; 
 }
 
 .britney {
   position: absolute;
   top: 20px;
-  left: 600px;
+  left: 30px;
 }
 .avril {
   position: absolute;
@@ -249,8 +240,8 @@ img {
 }
 .jason {
   position: absolute;
-  top: 20px;
-  left: 600px;
+  top: 200px;
+  left: 1200px;
   
 }
 
@@ -267,8 +258,8 @@ img {
 }
 .ziggy {
   position: absolute;
-  top: 20px;
-  left: 600px;  
+  top: 400px;
+  left: 1700px;  
 }
 
 footer {
@@ -280,7 +271,7 @@ footer {
   text-align: center;
   border-radius: 50%;
   border: 1px solid #ff5c00;
-  z-index: 99;
+  z-index: 10;
 }
 
 
@@ -291,9 +282,7 @@ footer {
 
 
 @media screen and (max-width: 868px) {
-  body {
-    background-color: lightgreen;
-  }
+  
   section {
     display: flex;
     flex-direction: column;
