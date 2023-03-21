@@ -32,9 +32,9 @@ h1{
   justify-content: center;
 }
 p{
-    position: relative;
+    
     max-width: 500px;
-    margin:auto;
+    margin:0;
 }
 
 ul{
@@ -52,7 +52,10 @@ h3{
   margin:0;
 }
 h4{
-  margin:10px 0;
+  position: relative;
+    max-width: 500px;
+    margin:15px 0 15px 0;     
+
   
 }
 
@@ -178,16 +181,16 @@ a:visited{
 .two-cols{
   display:flex;
   justify-content: center;
-  position: relative;
+  
   
 }
 .left {
   flex:1;
-  padding:100px 0 100px 100px;
+  padding:100px;
 }
 .right {
   flex:1;
-  padding:100px 100px 100px0;
+  padding:100px;
   
 }
 
