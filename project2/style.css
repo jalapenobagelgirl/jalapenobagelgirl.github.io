@@ -536,14 +536,18 @@ section{
     align-items: center;
 }
 #contact{
-  width: 100%;
-  margin:auto;
+  width: 100vw;
+  height: fit-content;
+  margin:0;
+  padding:50px;
   
 }
 .contact{
-
 flex-direction: column;
-width: 400px;
-margin:auto;
+width: 300px;
+margin-bottom: 50px;
+}
+.purchase-link a{
+z-index: 12;
 }
 }
