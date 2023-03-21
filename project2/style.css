@@ -20,9 +20,10 @@ body{
 }
 
 section{
-  height: 100vh;
-  margin: 70px 0;
-  position:relative;
+  width: 100vw;
+  margin: 200px 0;
+  
+  
   
 }
 
@@ -33,7 +34,7 @@ h1{
 }
 p{
     
-    max-width: 500px;
+    max-width: 400px;
     margin:0;
 }
 
@@ -168,14 +169,14 @@ a:visited{
     font-family: 'Seymour One', sans-serif;
     font-size: 50px;
     color: #F51A6C;
-    text-align: center;
-
+   position: relative;
+ 
     
 }
 #about-image{
-  width:700px;
+  width:80%;
   height:fit-content;
-  position: relative;
+
   
 }
 .two-cols{
@@ -183,14 +184,15 @@ a:visited{
   justify-content: center;
   
   
+  
 }
 .left {
   flex:1;
-  padding:100px;
+  
 }
 .right {
   flex:1;
-  padding:100px;
+  
   
 }
 
@@ -201,7 +203,7 @@ a:visited{
     position: relative;
     color:#41CCC0;
     height:fit-content;
-    margin: 80px 0 0 0;
+    margin: 100px 0 0 0;
     
 }
 #drinks-page h1{
@@ -273,7 +275,7 @@ a:visited{
   
   position: relative;
   color:yellow;
-     
+  margin: 100px 0 0 0;  
 }
 
 #food-page h1{
@@ -299,12 +301,12 @@ a:visited{
   
 }
 .fish-sando{
-  width:400px;
+  min-width:400px;
   height:fit-content;
 }
 
 #lumpia{
-  width: 400px;
+  min-width: 400px;
   height:fit-content;
 }
 
@@ -544,6 +546,5 @@ section{
 flex-direction: column;
 width: 400px;
 margin:auto;
-
-
+}
 }
