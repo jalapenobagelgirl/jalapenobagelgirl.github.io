@@ -5,6 +5,8 @@ font-family: 'Quicksand', sans-serif; */
 
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 html {
   scroll-behavior: smooth;
@@ -26,7 +28,7 @@ nav ul {
   list-style: none;
   display: flex;
   flex: 1;
-  top: 0;
+  top: 40px;
   position: fixed;
   z-index: 99;
 }
@@ -52,6 +54,7 @@ nav a:hover {
   width: 80px;
   margin: 10px 30px;
   position: fixed;
+  top:20px;
   z-index: 99;
 }
 #star:hover {
@@ -94,7 +97,6 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  margin: 0;
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   
@@ -104,59 +106,29 @@ h3 {
 }
 
 
-section {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  position: relative;
-  padding:0;
-  
-}
 
 /* HEADINGS */
 
-#reggaeton h1 {
+h1{
+  margin: 0px;
+  position: relative;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Oswald', sans-serif;
-  transform: rotate(-90deg);
-  font-size: 120px;
-  text-align: left;
-  margin: 600px 50px 200px 50px;
-  z-index: 10;
-}
 
-#oldies h1 {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: 'Oswald', sans-serif;
-  transform: rotate(-90deg);
-  font-size: 120px;
-  text-align: left;
-  margin: 600px 50px 200px 50px;
+  font-size: 200px;
+  text-align: center;
   z-index: 10;
-}
 
-#pop h1 {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: 'Oswald', sans-serif;
-  transform: rotate(-90deg);
-  font-size: 120px;
-  text-align: left;
-  margin: 600px 50px 200px 50px;
-  z-index: 10;
-}
-
-#indie h1 {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: 'Oswald', sans-serif;
-  transform: rotate(-90deg);
-  font-size: 120px;
-  text-align: left;
-  margin: 600px 50px 200px 50px;
-  z-index: 10;
 }
 
 
 /*sections*/
+
+section {
+  width:100%;
+  height:100vh;
+  position: relative;
+}
 
 #reggaeton {
   background-color: #fff500;
