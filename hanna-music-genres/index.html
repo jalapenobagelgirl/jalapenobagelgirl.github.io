@@ -17,6 +17,9 @@
 </head>
 
 <body>
+
+    <button class="audio-control" onclick="setHalfVolume()" type="button">LOW VOLUME BUTTON</button>
+
    <!--NAVIGATION-->
      <a href="index.html"><img id="star" src="images/home-button-star.png"></a>
     
@@ -188,7 +191,7 @@
             <div class="content hide">
                 <h3>ZIGGY ALBERTS</h3>
                 <p>My Favorite Song: "Runaway" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="ziggy-trim.mov" type=" audio/ogg">
                     
                   </audio>
@@ -196,21 +199,29 @@
         </div>
 </section>
    
-        <script src="script.js"></script>
-        
+
+  
+  
+  
+  <script>
+  var x = document.getElementById("audio");
+  function setHalfVolume() { 
+    x.volume = 0.2;
+  }
+  </script> 
 
      
-    <footer>
+<footer>
         hanna's project 1 / design 341 / winter 2023 
-    </footer>
+ </footer>
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-
-<script src="jquery.fittext.js"></script>
 
 
 
 <script src="script.js"></script>
+
+
 
  </body>
 

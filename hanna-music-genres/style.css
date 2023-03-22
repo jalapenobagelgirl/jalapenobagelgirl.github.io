@@ -12,6 +12,24 @@ html {
   scroll-behavior: smooth;
 }
 
+button{
+  background-color:white;
+  border:1px solid black;
+  z-index: 99;
+  border-radius: 50%;
+  width:fit-content;
+  color: #ff5c00;
+  font-weight: 600px;
+  padding: 20px;
+  position: fixed;
+  margin:500px 2000px 0 10px;
+  
+}
+button:hover{
+  background-color:#d4ef2d;
+}
+
+
 body {
   margin:0;
   color: white;
