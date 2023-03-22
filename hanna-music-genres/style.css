@@ -105,7 +105,9 @@ h3 {
   width: 500px;
 }
 
-
+p{
+  font-size: medium;
+}
 
 /* HEADINGS */
 
@@ -114,7 +116,6 @@ h1{
   position: relative;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Oswald', sans-serif;
-
   font-size: 200px;
   text-align: center;
   z-index: 10;
@@ -149,8 +150,30 @@ section {
   position: absolute;
   z-index: 99;
   bottom: 100px;
-  left: 100px;
+  left: 150px;
+  font-weight: 700;
+  color:white;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 30px;
+  padding:20px;
+  background: rgba(0, 0, 0, 0.5); 
+width: 100%;
+transition: .5s ease;
+opacity:0;
+
 }
+.content:hover{
+  opacity:1;
+}
+
+
+
+audio{
+  width: 100px;
+  text-align: center;
+}
+
 .hide {
   display: none;
 }
@@ -263,21 +286,40 @@ h1{
   font-size: 80px;
 }
 
+.content {
+  position: absolute;
+  z-index: 99;
+  bottom: 100px;
+  left: 150px;
+  width:200px;
+  font-weight: 700;
+  color:white;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 30px;
+  padding:20px;
+}
+
+audio{
+  width: 100px;
+  text-align: center;
+}
+
 /* DISCS */
 .jbalvin {
   position: absolute;
-  top: 150px;
-  left: 20px;
+  top: 200px;
+  left: 10px;
 }
 
 .ozuna {
   position: absolute;
-  top: 20px;
-  left: 500px;
+  top: 50px;
+  left: 475px;
 }
 .daddyyankee {
   position: absolute;
-  top: 250px;
+  top: 200px;
   left: 920px;
 }
 
@@ -290,7 +332,7 @@ h1{
 }
 .supremes {
   position: absolute;
-  top: 200px;
+  top: 175px;
   left: 475px;
 }
 .beegees {
@@ -301,35 +343,35 @@ h1{
 
 .britney {
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 30px;
 }
 .avril {
   position: absolute;
-  top: 20px;
-  left: 600px;
+  top: 40px;
+  left: 900px;
 }
 .jason {
   position: absolute;
   top: 200px;
-  left: 1200px;
+  left: 450px;
 }
 
 .cage {
   position: absolute;
-  top: 100px;
-  left: 40px;
+  top: 10px;
+  left: 5px;
   
 }
 .blackkeys {
   position: absolute;
-  top: 20px;
-  left: 600px;  
+  top: 200px;
+  left: 475px;  
 }
 .ziggy {
   position: absolute;
-  top: 400px;
-  left: 1700px;  
+  top: 40px;
+  left: 950px;  
 }  
 
 }
@@ -353,6 +395,12 @@ h1{
     z-index: 99;
     bottom: 50px;
     left: 50px;
+    width:100px;
+    
+  }
+  .content p{
+    font-size: medium;
+  
   }
   .hide {
     display: none;
