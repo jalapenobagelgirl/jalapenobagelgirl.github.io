@@ -24,10 +24,11 @@
         </div>
 
 <header id="home-page">
-        <img id="happy-hour" src="images/happy-hour.png">
-    <h2 class="info-home-page">
-        <img class="animate__animated animate__zoomIn logo" src="images/logo-alibi.png">
+        
+    <h2>
+        <img class="animate__animated animate__zoomIn logo"  alt="alibi logo" src="images/logo-alibi.png">
         <br>
+       <div class="home-hours">
             <strong>HOURS</strong> 
             <br>
             Every Day 11:30am—2:30am
@@ -37,33 +38,33 @@
             <br>
             Portland , OR 
             97227
-        </h2>
+        </div> 
+    </h2>
+        
     
     </header>
-    <div class="gallery-container">
 
-            <div class="gallery">
-                <img src="images/interior-1.jpg" style="width:100%">
+
+    <div class="gallery">
+
+            <div class="image1">
+                <img src="images/interior-1.jpg">
             </div>
         
-            <div class="gallery">
-                <img  src="images/interior-2.jpg" style="width:100%">
+            <div class="image2">
+                <img  src="images/interior-2.jpg">
             </div>
 
-            <div class="gallery">
-                <img  src="images/interior-3.jpg" style="width:100%">
+            <div class="image3">
+                <img  src="images/interior-3.jpg">
             </div>
-            <div style="text-align:center">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-            </div>
+            
     </div>
 
 <section id="about-page">
     <article class="two-cols">
         <div class="left">
-            <img id="about-image" src="images/alibi-exterior-sqaure.png">
+            <img id="about-image" alt="The Alibi Exterior" src="images/alibi-exterior-sqaure.png">
         </div>
        <div class="right">
         <h1>OUR STORY</h1>
@@ -205,30 +206,30 @@
  
 </section>
 
-<section id="contact">
+<section id="contact-page">
     <h1>CONTACT US</h1>
     <br>
-    <div>
-             <a class="grubhub" href="https://www.grubhub.com/restaurant/the-alibi-4024-n-interstate-ave-portland/2215839" target="_blank">ORDER FROM GRUBHUB</a>
-        </div>
-    
     
      <div class="contact">
-        <div class="contact-info">
-            <h4>HOURS</h4>Every Day 11:30am—2:30am
-            <h4>ADDRESS</h4>4024 N Interstate Ave 
+        <div class="hours-etc">
+            <h4>HOURS</h4>
+            <p>Every Day 11:30am—2:30am</p>
+            <h4>ADDRESS</h4>
+            <p>4024 N Interstate Ave 
             <br>
             Portland , OR 
-            97227
-            <h4>PHONE</h4>(503) 287-5335
+            97227</p>
+            <h4>PHONE</h4>
+            <p>(503) 287-5335</p>
         </div>
         <br>
-        <div class="logo-footer"><a href="#home-page"><img src="images/logo-alibi.png"></a></div>
+        <div class="logo-footer"><a href="#home-page"><img src="images/logo-alibi.png" alt="alibi logo"></a></div>
         <br>
+        
         <div id="anniv">
             <p><a class="purchase-link" href="https://checkout.square.site/merchant/MLH7V5N4VH89A/checkout/FCXVCTBTO2R7PY4M3EMSECJW?src=sheet" target="_blank">PURCHASE HERE</a></p>
-            <img class="anniv" src="images/75anniv.png">
-            <p>75th Anniversary Mug</p><p>$50</p>
+            <img alt="75th anniversary mug" class="anniv" src="images/75anniv.png" style="width:300px">
+            <p>75th Anniversary Mug<br>$50</p>
             
         </div>
     </div>
@@ -241,6 +242,18 @@
 </section>
 
    
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("sticky").style.width = "200px";
+  } else {
+    document.getElementById("sticky").style.width = "500px";
+  }
+}
+</script>
 
 </body>
 

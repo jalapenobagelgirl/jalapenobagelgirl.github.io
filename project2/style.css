@@ -6,7 +6,7 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Seymour One', sans-serif;
 */
 *{box-sizing:border-box;}
-.mySlides {display: none;}
+
 
 html {
   scroll-behavior: smooth;
@@ -106,14 +106,12 @@ a:visited{
 
 #home-page{  
   display: flex;
-  flex-wrap: wrap;
   margin:0;
   position: relative;
   justify-content: center;
   text-align: center;
   
 }
-
 
 #happy-hour{
   width:300px;
@@ -126,39 +124,43 @@ a:visited{
 
 }
 
-.info-home-page{
-  top:70px;
+.home-hours{
+  top:100px;
   position:relative;
   width:500px;
   font-weight: 300;
   color:white;
   padding: 90px 0 60px 0;
 }
-
-
-/*slideshow*/
-
-.gallery-container{
-  max-width: 1000px;
+.logo{
   position: relative;
-  margin: auto;
-
+  top: 150px;
+  width: 100%;
+  width:500px;
+    display:flex;
+    z-index: 10;
+    justify-content:center;
+    text-align: center;
 }
+
 .gallery{
-display: none;
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  overflow: hidden;
+  margin-top:50px;
+  position:relative;
 }
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.image1{
+  flex:1;
+
 }
-
-
+.image2{
+  flex:1;
+}
+.image3{
+  flex:1;
+}
 
 /* OUR STORY */
 
@@ -173,8 +175,6 @@ display: none;
     font-family: 'Seymour One', sans-serif;
     font-size: 60px;
     color: #F51A6C;
-    
-   
  
 }
 
@@ -315,16 +315,16 @@ display: none;
 /*CONTACT*/
 
 
-#contact{
+#contact-page{
   position: relative;
-  height: 80vh;
+  height: auto;
   width: 100%;
   color: white;
   background-color: darkblue;
-  padding:0 0 70px 0;
+ 
 }
 
-#contact h1{
+#contact-page h1{
   font-family: 'Seymour One', sans-serif;
   font-size: 60px;
   color: white;
@@ -332,18 +332,22 @@ display: none;
   padding:50px;
 }
 
+#grubhub{
+  position: relative;
+  justify-content: center;
+}
+
 .contact{
-  display:flex;
-justify-content: space-around;
-width:1700px;
-margin:auto;
+display:flex;
+justify-content: space-evenly;
+margin:0 200px;
 
 }
 .logo-footer{
   flex:1;
 }
 
-.contact-info{
+.hours-etc{
   flex:1;
   
 }
@@ -353,9 +357,7 @@ margin:auto;
   flex:1;
   
 }
-#anniv img{
-width:300px;
-}
+
 
 .purchase-link{
   border: 1px solid black;
@@ -399,8 +401,8 @@ marquee{
 
 
 footer{
-  position:relative;
-  align-items: baseline;
+  position:absolute;
+ bottom:50px;
   width: 100%;
   text-align: center;
   margin:0;
@@ -413,22 +415,25 @@ footer{
 
 /*FOR LAPTOP*/
 
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 2500px) {
 
 }
+
+
 
 
 /* FOR MOBILE */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   
-#happy-hour{
-    width:300px;
-    height:fit-content;
-    position: relative;
-    top:100px;
+p{
+  width:300px;
 }
+
+h1{
+  font-size: 40px;
+}
+
 section{
   height: fit-content;
   margin: 0;
@@ -440,8 +445,43 @@ section{
   
 }
 
+.gallery{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  overflow: hidden;
+  margin-top:100px;
+  position:relative;
+}
+.image1{
+  display:none;
+}
+.image3{
+  display:none;
+}
 .logo{
-  width:400px;
+  position: relative;
+  width: 400px;
+  margin:0 50px;
+    display:flex;
+    z-index: 10;
+    justify-content:center;
+    text-align: center;
+}
+#happy-hour{
+    width:200px;
+    height:100px;
+    position: absolute;
+    top:100px;
+    left:60px;
+}
+.home-hours{
+  top:100px;
+  position:relative;
+  width:500px;
+  font-weight: 300;
+  color:white;
+  padding: 90px 0 60px 0;
 }
   .nav{
     padding: 20px 50px;
@@ -462,7 +502,7 @@ section{
   padding: 20px 50px;
 }
 #about-image{
-  width: 400px;
+  width: 300px;
 }
 .left{
   margin:0;
@@ -471,9 +511,7 @@ section{
   margin:0;
   
 }
-.right h1{
-  text-align: center;
-}
+
 
 /* DRINKS */
 
