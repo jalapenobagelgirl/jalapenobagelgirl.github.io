@@ -46,9 +46,9 @@
             <div class="content hide">
                 <h3>J BALVIN</h3>
                 <p>My Favorite Song: "Mi Gente" </p><br>
-                <audio controls max-volume="0.1">
+                <audio id="audio" controls max-volume="0.1">
                     <source src="migentetrim.mov" type=" audio/ogg">
-                    
+
                   </audio>
             </div>
         </div>
@@ -57,7 +57,7 @@
             <div class="content hide">
                 <h3>DADDY YANKEE</h3>
                 <p>My Favorite Song: "Con Calma" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="con-calma-trim.mov" type=" audio/ogg">
                     
                   </audio>
@@ -70,7 +70,7 @@
         <div class="content hide">
             <h3>OZUNA</h3>
             <p>My Favorite Song: "Baila Baila Baila" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="baila-trim.mov" type=" audio/ogg">
                     
                   </audio>
@@ -85,11 +85,11 @@
 <section  id="oldies">
         
     <h1>OLDIES</h1>
-        <div class="disc supremes"><img src="images/supremes.png" alt="supremes"/>
+        <div class="disc supremes"><img src="images/supremes.png" alt=" The supremes"/>
             <div class="content hide">
                 <h3>THE SUPREMES</h3>
                 <p>My Favorite Song: "Baby Love" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="babylove-trim.mov" type=" audio/ogg">
                     
                   </audio>
@@ -98,11 +98,11 @@
 <img class="star-big" src="images/star2.png">
          
     
-        <div class="disc beegees"><img src="images/beegees.png"/>
+        <div class="disc beegees"><img alt="the beegees" src="images/beegees.png"/>
             <div class="content hide">
                 <h3>THE BEEGEES</h3>
                 <p>My Favorite Song: "Stayin' Alive" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="stayinalive-trim.mov" type=" audio/ogg">
                     
                   </audio>
@@ -111,11 +111,11 @@
             <img class="star2" src="images/star2.png">
         </div>
         
-        <div class="disc louis"><img src="images/ella-louis.png"/>
+        <div class="disc louis"><img alt="Ella fitzgerald and louis armstrong" src="images/ella-louis.png"/>
             <div class="content hide">
-                <h3>LOUIS & ELLA </h3>
+                <h3>LOUIS ARMSTRONG & ELLA FITZGERALD</h3>
                 <p>My Favorite Song: "Dream a Little Dream of Me" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="dream-trim.mov" type=" audio/ogg">
                     
                   </audio>
@@ -126,32 +126,32 @@
     
 <section id="pop">
     <h1>POP</h1>
-        <div class="disc avril"><img src="images/avril.png"/>
+        <div class="disc avril"><img alt="Avril lavigne"src="images/avril.png"/>
             <div class="content hide">
                 <h3>AVRIL LAVIGNE</h3>
                 <p>My Favorite Song: "I'm With You" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="avril-trim.mov" type=" audio/ogg">
                     
                   </audio>
             </div>
         </div>
     
-        <div class="disc britney"><img src="images/britney.png"/>
+        <div class="disc britney"><img alt="britney spears" src="images/britney.png"/>
             <div class="content hide">
                 <h3>BRITNEY SPEARS</h3>
                 <p>My Favorite Song: "Till the World Ends" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="britney-trim.mov" type=" audio/ogg">
                     
                   </audio>
             </div>
          </div>
-        <div class="disc jason"><img src="images/jason-derulo.png"/>
+        <div class="disc jason"><img alt="jason derulo" src="images/jason-derulo.png"/>
             <div class="content hide">
                 <h3>JASON DERULO</h3>
                 <p>My Favorite Song: "Whatcha Say" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="whatchasay-trim.mov" type=" audio/ogg">
                     
                   </audio>
@@ -164,30 +164,30 @@
 <section id="indie">
         
     <h1>INDIE</h1>
-        <div class="disc blackkeys"><img src="images/blackkeys.png"/>
+        <div class="disc blackkeys"><img alt="the black keys" src="images/blackkeys.png"/>
             <div class="content hide">
                 <h3>THE BLACK KEYS</h3>
                 <p>My Favorite Song: "Unknown Brother" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="unknownbrother-trim.mov" type=" audio/ogg">
                     
                   </audio>
             </div>
         </div>
     
-        <img class="star-big" src="images/star2.png">  
+        <img class="star-big" alt="star" src="images/star2.png">  
 
-        <div class="disc cage"><img src="images/cagetheelephant.png"/>
+        <div class="disc cage"><img alt="cage the elephant" src="images/cagetheelephant.png"/>
             <div class="content hide">
                 <h3>CAGE THE ELEPHANT</h3>
                 <p>My Favorite Song: "Cold Cold Cold" </p><br>
-                <audio controls>
+                <audio id="audio" controls>
                     <source src="coldcoldcold-trim.mov" type=" audio/ogg">
                     
                   </audio>
             </div>
         </div>
-        <div class="disc ziggy"><img src="images/ziggy.png"/>
+        <div class="disc ziggy"><img alt="ziggy alberts" src="images/ziggy.png"/>
             <div class="content hide">
                 <h3>ZIGGY ALBERTS</h3>
                 <p>My Favorite Song: "Runaway" </p><br>
@@ -228,10 +228,9 @@
 
 
  <!--  Essential META Tags -->
-<meta property="og:title" content="European Travel Destinations">
-<meta property="og:type" content="article" />
-<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
-<meta property="og:url" content="http://euro-travel-example.com/index.htm">
+<meta property="og:title" content="Hanna's Favorite Genres 2023">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jalapenobagelgirl.github.io/hanna-music-genres/index.html">
 <meta name="twitter:card" content="summary_large_image">
 
  </html>

@@ -22,7 +22,7 @@ button{
   font-weight: 600px;
   padding: 20px;
   position: fixed;
-  margin:650px 2000px 0 10px;
+  margin:650px 2000px 0 15px;
   
 }
 button:hover{
@@ -69,17 +69,15 @@ nav a:hover {
 }
 
 #star {
-  width: 80px;
+  width: 100px;
   margin: 10px 30px;
   position: fixed;
   top:20px;
   z-index: 99;
 }
-#star:hover {
-  /*jiggle*/
-}
+
 .star2 {
-  width: 70px;
+  width: 80px;
   height: min-content;
   position: relative;
 }
@@ -96,7 +94,7 @@ header {
 }
 
 .mainheader{
-  font-size:800px;
+  font-size:1000px;
   font-family: 'Oswald', sans-serif;
   color: white;
   position: relative;
@@ -214,7 +212,7 @@ img {
 .daddyyankee {
   position: absolute;
   top: 600px;
-  left: 1200px;
+  left: 1700px;
 }
 
 .ozuna {
@@ -265,7 +263,7 @@ img {
 }
 .blackkeys {
   position: absolute;
-  top: 20px;
+  top: 100px;
   left: 600px;  
 }
 .ziggy {
@@ -279,7 +277,7 @@ footer {
   position: relative;
   margin: 0% 40%;
   color: #ff5c00;
-  padding: 10px 20px;
+  padding: 10px 20px 20px;
   text-align: center;
   border-radius: 50%;
   border: 1px solid #ff5c00;
